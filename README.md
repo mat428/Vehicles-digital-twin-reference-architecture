@@ -1,33 +1,92 @@
-# Supporting data and code: vehicle-control SIL experiments
+# Digital Twin Reference Architecture for Intelligent Vehicles
 
-This package supports **A Reference Architecture for Digital Twin–Based Co-Simulation and Verification of Intelligent Vehicle Control Systems**, by Matin Afshari and coauthors. It accompanies the separately supplied revised article, identified by its SHA-256 in `docs/ARTICLE\\\_LINKAGE.json`.
+Code and reproduction documentation supporting:
 
-## Start here
+**A Reference Architecture for Digital Twin-Based Co-Simulation and Verification of Intelligent Vehicle Control Systems**
 
-1. Read `docs/ARTICLE\\\_DATA\\\_MAP.md` to locate evidence for each experimental table and figure.
-2. Read `docs/DATA\\\_DICTIONARY.md` for columns, units, missing values and time semantics.
-3. Read `docs/CONFIGURATION\\\_DETAILS.md` for exact paths, timeout calculation, adapter settings, fitted gains and bootstrap details.
-4. Run `python verify\\\_package.py` to check all packaged file hashes and dataset inventory; this needs only Python's standard library.
-5. To recompute the equations without installing simulators, run `python src/independent\\\_validate.py` **in a working copy**. It writes `results/independent\\\_validation.json`.
-6. Follow `docs/REPRODUCIBILITY.md` for dependency installation, analysis, figure export or new native simulation runs.
+Matin Afshari, Mohsen Malayjerdi, Heiko Pikner, Andrei Rudz, Eduard Brindfeldt, and Raivo Sell.
 
-## Contents retained
+Submitted to Vehicles. Manuscript ID: vehicles-4701946.
 
-* **864 evaluation runs:** two native backends, two campaigns, three paths, two speeds and six evaluation seeds per backend. Each run retains a JSON record and compressed control/state and observation CSV files.
-* **24 calibration runs:** circle/ellipse only; disjoint calibration seeds; frozen monitor models.
-* **6 half-timestep checks and 2 fresh-environment checks:** stored separately; not counted as primary replicates.
-* Full per-run metadata, raw measurements, summaries, calibration, original audit reports and relevant execution logs.
-* Frozen protocol and core experiment code, native adapters, unit checks, map assets, pinned requirements and retained upstream runtime source/assets with licenses.
-* Empirical figures corresponding to Figures 10–12 and a figure-only exporter.
-* New packaging checks, evidence mapping and checksums.
+## Main contribution
 
-The primary raw logs and frozen execution files are unchanged. The new documentation and exporter organize the existing evidence; they do not add experiments or alter reported results. Third-party documentation, examples, tests, unused ROS bridge code, old manuscripts, LaTeX files, template archives, architectural drawing scripts and article-building logs were removed. The original complete upstream manifest is historical; `MANIFEST\\\_SHA256.csv` lists exactly what is in this cleaned package.
+The study proposes a six-layer reference architecture with explicit responsibilities, interfaces, state ownership, timing, command authority, and evidence management. The experimental implementations provide supporting evidence for selected architectural functions.
 
-## Scope
+## Experiment availability
 
-All measurements are simulated. No physical-vehicle, deployed ROS 2/DDS, HIL, native perception or real-world safety evidence is included. Audits check computational consistency; they are not an external safety assessment. This cleanup did not rerun all native simulations. See `checks/` for checks performed on supplied records.
+| Experiment | Current status |
+| --- | --- |
+| Primary software-in-the-loop study | Source code and documentation included. Dataset will be provided through GitHub Releases. |
+| ROS 2/DDS extension | Will be added by a collaborating author. Not included in this version. |
 
-## Rights
+## Primary study
 
-Upstream source/assets retain their supplied licenses; see `docs/THIRD\\\_PARTY\\\_NOTICES.md`. No new license for the authors' original code/data is imposed by this packaging step. Authors should choose appropriate reuse terms if depositing the package publicly.
+The primary dataset contains:
 
+- 864 evaluation runs using native F1TENTH and MetaDrive vehicle models.
+- 24 separate calibration runs.
+- Six half-timestep checks.
+- Two fresh-environment checks.
+- Control/state histories, observation records, per-run metadata, summaries, and computational audits.
+
+All measurements are simulated. The study does not establish physical-vehicle validation.
+
+## Repository contents
+
+- `src/`: experiment runners, native plant adapters, analysis, and figure export.
+- `configs/`: frozen experiment protocol.
+- `maps/`: supplied map assets.
+- `tests/`: checks of software contracts.
+- `docs/`: data dictionary, configuration details, reproduction instructions, and manuscript evidence mapping.
+- `checks/`: supplied historical audit reports.
+- `figures/`: primary-study experimental figures.
+- `requirements.txt` and `requirements.lock.txt`: dependency specifications.
+
+Large datasets and bundled simulator distributions are excluded from Git history.
+
+## Dataset downloads
+
+Dataset archives will be attached to the repository's Releases page:
+
+https://github.com/mat428/Vehicles-digital-twin-reference-architecture/releases
+
+Until a dataset release is published, this repository alone is not a complete reproduction package.
+
+## Reproduce the primary results
+
+Download and extract a complete dataset archive from Releases. Open a terminal in the extracted directory containing `verify_package.py`, `src/`, and `results/`.
+
+First verify the untouched archive:
+
+```sh
+python verify_package.py
+```
+
+Then use a working copy to run the independent computational check:
+
+```sh
+python src/independent_validate.py
+```
+
+For dependency installation, table recalculation, figure export, and optional new native simulation runs, follow the instructions supplied inside that archive.
+
+Analysis scripts can overwrite derived reports. Preserve an untouched downloaded copy.
+
+The repository's `MANIFEST_SHA256.csv` describes the original complete data package. It is not a checksum manifest for this Git checkout, which excludes results and simulator distributions and contains edited documentation.
+
+## Documentation
+
+- [Data dictionary](docs/DATA_DICTIONARY.md)
+- [Configuration details](docs/CONFIGURATION_DETAILS.md)
+- [Primary evidence map](docs/ARTICLE_DATA_MAP.md)
+- [Original reproduction instructions](docs/REPRODUCIBILITY.md)
+
+Some original documentation describes the complete downloadable package rather than this smaller Git checkout.
+
+## Citation
+
+If you use this code or dataset in research, please cite the repository release and the associated article by Matin Afshari and co-authors. Publication and DOI information will be added when available.
+
+## Licensing
+
+See `LICENSE` for the repository's software license. Third-party components retain their original licenses. Dataset licensing will be stated explicitly with the dataset release.
