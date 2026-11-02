@@ -16,7 +16,7 @@ The study proposes a six-layer reference architecture with explicit responsibili
 
 | Experiment | Current status |
 | --- | --- |
-| Primary software-in-the-loop study | Source code and documentation included. Dataset will be provided through GitHub Releases. |
+| Primary software-in-the-loop study | Source code and documentation included. Dataset available through the Google Drive link below. |
 | ROS 2/DDS extension | Will be added by a collaborating author. Not included in this version. |
 
 ## Primary study
@@ -46,15 +46,17 @@ Large datasets and bundled simulator distributions are excluded from Git history
 
 ## Dataset downloads
 
-Dataset archives will be attached to the repository's Releases page:
+Download the primary SIL experiment data package from:
 
-https://github.com/mat428/Vehicles-digital-twin-reference-architecture/releases
+[Primary SIL dataset and code — Google Drive](https://drive.google.com/drive/folders/11ZidiQWb8OWZmBb0Bi_VL_b_YiG491HJ?usp=sharing)
 
-Until a dataset release is published, this repository alone is not a complete reproduction package.
+Access is available without signing in. Download and extract the dataset archive before following the reproduction instructions below.
+
+The ROS 2/DDS extension will be added separately.
 
 ## Reproduce the primary results
 
-Download and extract a complete dataset archive from Releases. Open a terminal in the extracted directory containing `verify_package.py`, `src/`, and `results/`.
+Download and extract the primary SIL dataset archive from the Google Drive link above. Open a terminal in the extracted directory containing `verify_package.py`, `src/`, and `results/`.
 
 First verify the untouched archive:
 
