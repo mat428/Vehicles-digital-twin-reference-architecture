@@ -1,0 +1,19 @@
+[
+  {
+    "event": "fault_start",
+    "sim_t": 2.99,
+    "wall_ns": 531074864498260,
+    "source": "scenario injection using native progress; unavailable to controller"
+  },
+  {
+    "event": "expiry_stop_latched",
+    "sim_t": 3.06,
+    "wall_ns": 531074934514357,
+    "command_source_wall_ns": 531074854400317
+  },
+  {
+    "event": "controller_resumed",
+    "sim_t": 3.99,
+    "wall_ns": 531075864518922
+  }
+]

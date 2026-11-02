@@ -1,0 +1,16 @@
+{
+  "backend": "metadrive",
+  "exchanges": 1119,
+  "round_trip_median_ms": 0.453402,
+  "round_trip_p95_ms": 0.7068784999999999,
+  "round_trip_max_ms": 0.986304,
+  "round_trips_over_20ms": 0,
+  "maximum_steering_difference_rad": 0.0,
+  "completed": true,
+  "boundary_violation": false,
+  "wall_elapsed_s": 3.0609808289445937,
+  "simulated_elapsed_s": 22.36,
+  "rmw": "rmw_fastrtps_cpp",
+  "mode": "lockstep; DDS state request and command; observer/monitor in runner",
+  "note": "Same-host application RTT; simulation waits for reply; no deadline guarantee."
+}

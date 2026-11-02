@@ -1,0 +1,13 @@
+{
+  "group": "matched",
+  "backend": "metadrive",
+  "task": "blocked",
+  "variant": "stop_only",
+  "transport": "inprocess",
+  "seed": 2001,
+  "halfwidth_L": 4.0,
+  "fault": "none",
+  "policy": "expire_stop",
+  "speed": 2.0,
+  "id": "27_matched_metadrive_blocked_stop_only_inprocess_2001_none_expire_stop_w4"
+}

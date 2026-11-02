@@ -1,0 +1,10 @@
+{
+  "method": "stdlib SAT/segment distances; recorded native endpoints and interval midpoints",
+  "sampled_clearance_m": 15.50394300141322,
+  "sampled_road_clearance_m": 8.9293420666118,
+  "endpoint_and_midpoint_collision": false,
+  "outcome_confirmed": true,
+  "passed": true,
+  "swept_score_is_conservative": true,
+  "limitation": "Midpoint audit complements conservative swept score; no continuous native-contact dynamics claim."
+}

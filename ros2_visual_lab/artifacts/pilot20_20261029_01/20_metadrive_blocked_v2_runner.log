@@ -1,0 +1,46 @@
+[38;20m[INFO] Environment: MetaDriveEnv[0m
+[38;20m[INFO] MetaDrive version: 0.4.3[0m
+[38;20m[INFO] Sensors: [lidar: Lidar(), side_detector: SideDetector(), lane_line_detector: LaneLineDetector()][0m
+[38;20m[INFO] Render Mode: none[0m
+[38;20m[INFO] Horizon (Max steps per agent): 20000[0m
+[38;20m[INFO] Assets version: 0.4.3[0m
+[38;20m[INFO] Known Pipes: glxGraphicsPipe[0m
+[38;20m[INFO] Start Scenario Index: 0, Num Scenarios : 3000[0m
+{
+  "backend": "metadrive",
+  "scenario": "blocked",
+  "speed_case": 2.0,
+  "seed": 1001,
+  "version": "static-map-pilot-v1",
+  "outcome": "stopped",
+  "passed": true,
+  "simulated_elapsed_s": 17.259999999999998,
+  "wall_elapsed_s": 3.263608350069262,
+  "minimum_swept_clearance_m": 15.50394300041323,
+  "minimum_road_clearance_m": 8.929342065289829,
+  "clearance_required_m": 0.617235,
+  "exchanges": 863,
+  "round_trip_median_ms": 0.529157,
+  "round_trip_p95_ms": 0.8376299999999999,
+  "round_trip_max_ms": 80.733497,
+  "final_position_m": [
+    48.898582458496094,
+    0.0056055267341434956
+  ],
+  "final_speed_m_s": 0.004636384863025361,
+  "dimensions_m": [
+    4.515,
+    1.852
+  ],
+  "native_metadata": {
+    "component": "native MetaDrive StaticDefaultVehicle/Bullet",
+    "mass_kg": 1100.0,
+    "wheelbase_m": 2.46894,
+    "physics_dt_s": 0.005,
+    "arena": "flat native Bullet plane; original road surfaces removed",
+    "native_sensor_models_used": false,
+    "corridor_checks": "shared geometry, not native road-network score"
+  },
+  "command_equivalence_checked": true,
+  "boundary": "known static map; symmetric body rectangles; lockstep DDS; no perception or impact response"
+}

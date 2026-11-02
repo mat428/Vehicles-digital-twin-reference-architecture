@@ -1,0 +1,174 @@
+{
+  "started_utc": "2026-10-29T14:16:23.798001+00:00",
+  "matrix": [
+    {
+      "backend": "f1tenth",
+      "family": "geometry",
+      "track": "circle",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "01_f1tenth_circle_v1"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "geometry",
+      "track": "circle",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "02_f1tenth_circle_v2"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "geometry",
+      "track": "ellipse",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "03_f1tenth_ellipse_v1"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "geometry",
+      "track": "ellipse",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "04_f1tenth_ellipse_v2"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "geometry",
+      "track": "wavy",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "05_f1tenth_wavy_v1"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "geometry",
+      "track": "wavy",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "06_f1tenth_wavy_v2"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "detour",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "07_f1tenth_detour_v1"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "detour",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "08_f1tenth_detour_v2"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "blocked",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "09_f1tenth_blocked_v1"
+    },
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "blocked",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "10_f1tenth_blocked_v2"
+    },
+    {
+      "backend": "metadrive",
+      "family": "geometry",
+      "track": "circle",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "11_metadrive_circle_v1"
+    },
+    {
+      "backend": "metadrive",
+      "family": "geometry",
+      "track": "circle",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "12_metadrive_circle_v2"
+    },
+    {
+      "backend": "metadrive",
+      "family": "geometry",
+      "track": "ellipse",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "13_metadrive_ellipse_v1"
+    },
+    {
+      "backend": "metadrive",
+      "family": "geometry",
+      "track": "ellipse",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "14_metadrive_ellipse_v2"
+    },
+    {
+      "backend": "metadrive",
+      "family": "geometry",
+      "track": "wavy",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "15_metadrive_wavy_v1"
+    },
+    {
+      "backend": "metadrive",
+      "family": "geometry",
+      "track": "wavy",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "16_metadrive_wavy_v2"
+    },
+    {
+      "backend": "metadrive",
+      "family": "obstacle",
+      "scenario": "detour",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "17_metadrive_detour_v1"
+    },
+    {
+      "backend": "metadrive",
+      "family": "obstacle",
+      "scenario": "detour",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "18_metadrive_detour_v2"
+    },
+    {
+      "backend": "metadrive",
+      "family": "obstacle",
+      "scenario": "blocked",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "19_metadrive_blocked_v1"
+    },
+    {
+      "backend": "metadrive",
+      "family": "obstacle",
+      "scenario": "blocked",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "20_metadrive_blocked_v2"
+    }
+  ],
+  "mode": "sequential native pilots; lockstep ROS 2/DDS; headless, unpaced simulation",
+  "seed_scope": "single development seed 1001; no independent statistical evaluation",
+  "middleware": "rmw_fastrtps_cpp",
+  "source_hashes": {
+    "pilot_suite.py": "1e2449acd800243c3e3423269deebb9c50ea5c8bc5b7ad30a3309e783468325a",
+    "pilot_obstacles.py": "837a888fa541c8f0487565f651669428dd7b4fec86f7aa5656d39ac387db8147",
+    "demo.py": "520fbbf5d037760ee4ea86131bd25126c2c31243eca7a36e092e4b156065a4a3",
+    "analyze_pilots.py": "fca61b5b2dfef454b425bbc2d3d2cd37a67c60ef6e03dae0b8a1a7f081006111"
+  }
+}

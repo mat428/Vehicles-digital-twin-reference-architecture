@@ -1,0 +1,25 @@
+# Separate Humble/Python 3.10 demonstration environment; not the paper's lock.
+numpy==1.26.4
+numba==0.60.0
+scipy==1.14.1
+gym==0.26.2
+gymnasium==1.0.0
+pyglet==1.5.27
+Panda3D==1.10.15
+panda3d-gltf==0.15.0
+panda3d-simplepbr==0.13.1
+matplotlib==3.9.4
+PyYAML==6.0.2
+pillow==11.1.0
+pygame==2.6.1
+opencv-python-headless==4.11.0.86
+requests==2.32.3
+lxml==5.3.1
+psutil==7.0.0
+shapely==2.0.7
+filelock==3.17.0
+Pygments==2.19.1
+mediapy==1.2.2
+progressbar==2.5
+tqdm==4.67.1
+yapf==0.43.0

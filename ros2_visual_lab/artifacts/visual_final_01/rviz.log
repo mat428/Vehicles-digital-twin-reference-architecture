@@ -1,0 +1,7 @@
+QStandardPaths: XDG_RUNTIME_DIR not set, defaulting to '/tmp/runtime-'
+[ERROR] [1793273868.944111152] [rviz2]: failed to make config dir: //.rviz2
+[INFO] [1793273869.433345585] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1793273869.433416991] [rviz2]: OpenGl version: 4.6 (GLSL 4.6)
+[INFO] [1793273869.571031665] [rviz2]: Stereo is NOT SUPPORTED
+[INFO] [1793273910.027810996] [rclcpp]: signal_handler(SIGINT/SIGTERM)
+[ERROR] [1793273910.055821996] [rviz2]: Failed to open //.rviz2/persistent_settings for writing.

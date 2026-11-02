@@ -1,0 +1,57 @@
+{
+  "backend": "f1tenth",
+  "scenario": "detour",
+  "speed_case": 2.0,
+  "seed": 1001,
+  "version": "static-map-pilot-v1",
+  "outcome": "goal_reached",
+  "passed": true,
+  "simulated_elapsed_s": 9.125000000000002,
+  "wall_elapsed_s": 2.7296092360047624,
+  "minimum_swept_clearance_m": 0.14204612833198782,
+  "minimum_road_clearance_m": 0.6659109619120732,
+  "clearance_required_m": 0.08255,
+  "exchanges": 457,
+  "round_trip_median_ms": 0.602591,
+  "round_trip_p95_ms": 0.9249191999999999,
+  "round_trip_max_ms": 37.557443,
+  "final_position_m": [
+    18.16972801656207,
+    -0.0008658095406858049
+  ],
+  "final_speed_m_s": 2.0,
+  "dimensions_m": [
+    0.58,
+    0.31
+  ],
+  "native_metadata": {
+    "component": "official F1TENTH Gym RaceCar",
+    "params": {
+      "mu": 1.0489,
+      "C_Sf": 4.718,
+      "C_Sr": 5.4562,
+      "lf": 0.15875,
+      "lr": 0.17145,
+      "h": 0.074,
+      "m": 3.74,
+      "I": 0.04712,
+      "s_min": -0.4189,
+      "s_max": 0.4189,
+      "sv_min": -3.2,
+      "sv_max": 3.2,
+      "v_switch": 7.319,
+      "a_max": 9.51,
+      "v_min": -5.0,
+      "v_max": 20.0,
+      "width": 0.31,
+      "length": 0.58
+    },
+    "physics_dt_s": 0.001,
+    "integrator": "native RK4",
+    "laser_beams": 16,
+    "scans_used_for_control": false,
+    "corridor_checks": "shared geometry, not Gym collision or race scoring"
+  },
+  "command_equivalence_checked": true,
+  "boundary": "known static map; symmetric body rectangles; lockstep DDS; no perception or impact response"
+}

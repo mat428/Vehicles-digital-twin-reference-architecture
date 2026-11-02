@@ -1,0 +1,13 @@
+{
+  "group": "fault",
+  "backend": "metadrive",
+  "task": "detour",
+  "variant": "planner",
+  "transport": "async_dds",
+  "seed": 2001,
+  "halfwidth_L": 4.0,
+  "fault": "delay_120ms",
+  "policy": "expire_stop",
+  "speed": 2.0,
+  "id": "34_fault_metadrive_detour_planner_async_dds_2001_delay_120ms_expire_stop_w4"
+}

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "01_matched_f1tenth_detour_stop_only_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "02_matched_f1tenth_detour_planner_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "03_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "04_matched_f1tenth_detour_stop_only_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "05_matched_f1tenth_detour_planner_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "06_matched_f1tenth_detour_planner_async_dds_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "07_matched_f1tenth_blocked_stop_only_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "08_matched_f1tenth_blocked_planner_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "09_matched_f1tenth_blocked_planner_async_dds_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "10_matched_f1tenth_blocked_stop_only_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "11_matched_f1tenth_blocked_planner_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "12_matched_f1tenth_blocked_planner_async_dds_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "13_fault_f1tenth_detour_planner_async_dds_2001_delay_120ms_hold_w4",
+    "returncode": 0
+  },
+  {
+    "id": "14_fault_f1tenth_detour_planner_async_dds_2001_delay_120ms_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "15_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4",
+    "returncode": 0
+  },
+  {
+    "id": "16_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "17_width_f1tenth_detour_planner_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "18_width_f1tenth_detour_planner_inprocess_2001_none_expire_stop_w2.5",
+    "returncode": 0
+  },
+  {
+    "id": "19_width_f1tenth_detour_planner_inprocess_2001_none_expire_stop_w2.2",
+    "returncode": 0
+  },
+  {
+    "id": "20_width_f1tenth_detour_planner_inprocess_2001_none_expire_stop_w1.8",
+    "returncode": 0
+  },
+  {
+    "id": "21_matched_metadrive_detour_stop_only_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "22_matched_metadrive_detour_planner_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "23_matched_metadrive_detour_planner_async_dds_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "24_matched_metadrive_detour_stop_only_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "25_matched_metadrive_detour_planner_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "26_matched_metadrive_detour_planner_async_dds_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "27_matched_metadrive_blocked_stop_only_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "28_matched_metadrive_blocked_planner_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "29_matched_metadrive_blocked_planner_async_dds_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "30_matched_metadrive_blocked_stop_only_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "31_matched_metadrive_blocked_planner_inprocess_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "32_matched_metadrive_blocked_planner_async_dds_2002_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "33_fault_metadrive_detour_planner_async_dds_2001_delay_120ms_hold_w4",
+    "returncode": 0
+  },
+  {
+    "id": "34_fault_metadrive_detour_planner_async_dds_2001_delay_120ms_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "35_fault_metadrive_detour_planner_async_dds_2001_pause_1s_hold_w4",
+    "returncode": 0
+  },
+  {
+    "id": "36_fault_metadrive_detour_planner_async_dds_2001_pause_1s_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "37_width_metadrive_detour_planner_inprocess_2001_none_expire_stop_w4",
+    "returncode": 0
+  },
+  {
+    "id": "38_width_metadrive_detour_planner_inprocess_2001_none_expire_stop_w2.5",
+    "returncode": 0
+  },
+  {
+    "id": "39_width_metadrive_detour_planner_inprocess_2001_none_expire_stop_w2.2",
+    "returncode": 0
+  },
+  {
+    "id": "40_width_metadrive_detour_planner_inprocess_2001_none_expire_stop_w1.8",
+    "returncode": 0
+  }
+]
