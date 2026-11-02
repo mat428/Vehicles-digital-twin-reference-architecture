@@ -1,0 +1,2990 @@
+{
+  "retained_original_files": 4096,
+  "removed_original_files": 740,
+  "removed_bytes": 61557664,
+  "removed": [
+    {
+      "path": "README.md",
+      "bytes": 4735
+    },
+    {
+      "path": "README_FOR_COLLABORATORS.md",
+      "bytes": 4334
+    },
+    {
+      "path": "docs/MANUSCRIPT_QA.json",
+      "bytes": 932
+    },
+    {
+      "path": "docs/REPLACE_WITH_ISEAUTO.md",
+      "bytes": 6624
+    },
+    {
+      "path": "docs/REPRODUCIBILITY.md",
+      "bytes": 3596
+    },
+    {
+      "path": "docs/RESULTS.md",
+      "bytes": 12693
+    },
+    {
+      "path": "docs/REVIEW_AND_CHANGES.md",
+      "bytes": 2497
+    },
+    {
+      "path": "docs/diagram_geometry_checks.json",
+      "bytes": 845
+    },
+    {
+      "path": "docs/reference_metadata_audit.json",
+      "bytes": 22745
+    },
+    {
+      "path": "docs/result_figure_geometry_checks.json",
+      "bytes": 602
+    },
+    {
+      "path": "docs/zhao_source_metadata.json",
+      "bytes": 3962
+    },
+    {
+      "path": "manuscript/Definitions/journalnames.tex",
+      "bytes": 108413
+    },
+    {
+      "path": "manuscript/Definitions/logo-mdpi-eps-converted-to.pdf",
+      "bytes": 13053
+    },
+    {
+      "path": "manuscript/Definitions/logo-mdpi.eps",
+      "bytes": 563678
+    },
+    {
+      "path": "manuscript/Definitions/logo-orcid.pdf",
+      "bytes": 12671
+    },
+    {
+      "path": "manuscript/Definitions/logo-updates-eps-converted-to.pdf",
+      "bytes": 15343
+    },
+    {
+      "path": "manuscript/Definitions/logo-updates.eps",
+      "bytes": 851415
+    },
+    {
+      "path": "manuscript/Definitions/mdpi.bst",
+      "bytes": 23683
+    },
+    {
+      "path": "manuscript/Definitions/mdpi.cls",
+      "bytes": 63307
+    },
+    {
+      "path": "manuscript/Definitions/mdpi_apacite.bst",
+      "bytes": 138426
+    },
+    {
+      "path": "manuscript/Definitions/mdpi_apacite.sty",
+      "bytes": 71315
+    },
+    {
+      "path": "manuscript/Definitions/mdpi_chicago.bst",
+      "bytes": 37920
+    },
+    {
+      "path": "manuscript/MDPI_template.zip",
+      "bytes": 1130428
+    },
+    {
+      "path": "manuscript/article_complete.tex",
+      "bytes": 65013
+    },
+    {
+      "path": "manuscript/conclusion.tex",
+      "bytes": 1200
+    },
+    {
+      "path": "manuscript/experimental_evidence.tex",
+      "bytes": 14494
+    },
+    {
+      "path": "manuscript/figures/architecture.pdf",
+      "bytes": 22195
+    },
+    {
+      "path": "manuscript/figures/architecture.png",
+      "bytes": 224952
+    },
+    {
+      "path": "manuscript/figures/architecture.svg",
+      "bytes": 12472
+    },
+    {
+      "path": "manuscript/figures/basic_dt.pdf",
+      "bytes": 18200
+    },
+    {
+      "path": "manuscript/figures/basic_dt.png",
+      "bytes": 98459
+    },
+    {
+      "path": "manuscript/figures/basic_dt.svg",
+      "bytes": 6189
+    },
+    {
+      "path": "manuscript/figures/cosim_levels.pdf",
+      "bytes": 17532
+    },
+    {
+      "path": "manuscript/figures/cosim_levels.png",
+      "bytes": 88083
+    },
+    {
+      "path": "manuscript/figures/cosim_levels.svg",
+      "bytes": 7345
+    },
+    {
+      "path": "manuscript/figures/dataflow.pdf",
+      "bytes": 20036
+    },
+    {
+      "path": "manuscript/figures/dataflow.png",
+      "bytes": 137777
+    },
+    {
+      "path": "manuscript/figures/dataflow.svg",
+      "bytes": 10566
+    },
+    {
+      "path": "manuscript/figures/dt_evolution.pdf",
+      "bytes": 17690
+    },
+    {
+      "path": "manuscript/figures/dt_evolution.png",
+      "bytes": 101702
+    },
+    {
+      "path": "manuscript/figures/dt_evolution.svg",
+      "bytes": 5058
+    },
+    {
+      "path": "manuscript/figures/experimental_evidence.pdf",
+      "bytes": 19482
+    },
+    {
+      "path": "manuscript/figures/experimental_evidence.png",
+      "bytes": 408152
+    },
+    {
+      "path": "manuscript/figures/experimental_evidence.svg",
+      "bytes": 58775
+    },
+    {
+      "path": "manuscript/figures/fault_evidence.pdf",
+      "bytes": 12968
+    },
+    {
+      "path": "manuscript/figures/fault_evidence.png",
+      "bytes": 72956
+    },
+    {
+      "path": "manuscript/figures/fault_evidence.svg",
+      "bytes": 17864
+    },
+    {
+      "path": "manuscript/figures/model_evidence.pdf",
+      "bytes": 13225
+    },
+    {
+      "path": "manuscript/figures/model_evidence.png",
+      "bytes": 91169
+    },
+    {
+      "path": "manuscript/figures/model_evidence.svg",
+      "bytes": 21720
+    },
+    {
+      "path": "manuscript/figures/native_trajectories.pdf",
+      "bytes": 24678
+    },
+    {
+      "path": "manuscript/figures/native_trajectories.png",
+      "bytes": 253989
+    },
+    {
+      "path": "manuscript/figures/native_trajectories.svg",
+      "bytes": 60398
+    },
+    {
+      "path": "manuscript/figures/rosgraph.pdf",
+      "bytes": 21674
+    },
+    {
+      "path": "manuscript/figures/rosgraph.png",
+      "bytes": 143708
+    },
+    {
+      "path": "manuscript/figures/rosgraph.svg",
+      "bytes": 12250
+    },
+    {
+      "path": "manuscript/figures/sequence.pdf",
+      "bytes": 20664
+    },
+    {
+      "path": "manuscript/figures/sequence.png",
+      "bytes": 130332
+    },
+    {
+      "path": "manuscript/figures/sequence.svg",
+      "bytes": 12590
+    },
+    {
+      "path": "manuscript/figures/verification_process.pdf",
+      "bytes": 19969
+    },
+    {
+      "path": "manuscript/figures/verification_process.png",
+      "bytes": 139494
+    },
+    {
+      "path": "manuscript/figures/verification_process.svg",
+      "bytes": 11281
+    },
+    {
+      "path": "manuscript/figures/workflow.pdf",
+      "bytes": 19289
+    },
+    {
+      "path": "manuscript/figures/workflow.png",
+      "bytes": 147129
+    },
+    {
+      "path": "manuscript/figures/workflow.svg",
+      "bytes": 10194
+    },
+    {
+      "path": "manuscript/limitations.tex",
+      "bytes": 1820
+    },
+    {
+      "path": "manuscript/main.pdf",
+      "bytes": 415726
+    },
+    {
+      "path": "manuscript/main.tex",
+      "bytes": 47577
+    },
+    {
+      "path": "manuscript/soul-ori.sty",
+      "bytes": 25449
+    },
+    {
+      "path": "manuscript/soul.sty",
+      "bytes": 16881
+    },
+    {
+      "path": "manuscript/soulutf8.sty",
+      "bytes": 1120
+    },
+    {
+      "path": "results/logs/design_figures.log",
+      "bytes": 63
+    },
+    {
+      "path": "results/logs/latex_a.log",
+      "bytes": 24663
+    },
+    {
+      "path": "results/logs/latex_b.log",
+      "bytes": 15387
+    },
+    {
+      "path": "results/logs/latex_c.log",
+      "bytes": 15387
+    },
+    {
+      "path": "results/logs/latex_d.log",
+      "bytes": 15387
+    },
+    {
+      "path": "results/logs/latex_e.log",
+      "bytes": 15469
+    },
+    {
+      "path": "results/logs/latex_f.log",
+      "bytes": 15387
+    },
+    {
+      "path": "results/logs/latex_flat.log",
+      "bytes": 15319
+    },
+    {
+      "path": "results/logs/report.log",
+      "bytes": 77
+    },
+    {
+      "path": "src/design_figures.py",
+      "bytes": 10223
+    },
+    {
+      "path": "src/package.py",
+      "bytes": 3111
+    },
+    {
+      "path": "src/report.py",
+      "bytes": 32076
+    },
+    {
+      "path": "vendor/f1tenth_gym/.github/ISSUE_TEMPLATE/bug_report.md",
+      "bytes": 834
+    },
+    {
+      "path": "vendor/f1tenth_gym/.github/ISSUE_TEMPLATE/feature_request.md",
+      "bytes": 595
+    },
+    {
+      "path": "vendor/f1tenth_gym/.github/workflows/ci.yml",
+      "bytes": 534
+    },
+    {
+      "path": "vendor/f1tenth_gym/.github/workflows/docker.yml",
+      "bytes": 370
+    },
+    {
+      "path": "vendor/f1tenth_gym/.gitignore",
+      "bytes": 166
+    },
+    {
+      "path": "vendor/f1tenth_gym/Dockerfile",
+      "bytes": 2017
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/Doxyfile",
+      "bytes": 281
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/Makefile",
+      "bytes": 634
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/_static/css/custom.css",
+      "bytes": 17199
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/_static/js/custom.js",
+      "bytes": 1656
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/api/base_classes.rst",
+      "bytes": 398
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/api/collision_models.rst",
+      "bytes": 379
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/api/dynamic_models.rst",
+      "bytes": 202
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/api/env.rst",
+      "bytes": 184
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/api/laser_models.rst",
+      "bytes": 563
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/api/obv.rst",
+      "bytes": 1048
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/api/rendering.rst",
+      "bytes": 195
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/docker_logo.png",
+      "bytes": 9943
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/f110cover.png",
+      "bytes": 287921
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/f1_stickers_01.png",
+      "bytes": 24592
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/f1_stickers_02.png",
+      "bytes": 209342
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/f1tenth_gym.svg",
+      "bytes": 49578
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/f1tenth_gym_color.svg",
+      "bytes": 49578
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/gym.svg",
+      "bytes": 4696
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/assets/pip_logo.svg",
+      "bytes": 14374
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/basic_usage.rst",
+      "bytes": 2239
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/conf.py",
+      "bytes": 2970
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/customized_usage.rst",
+      "bytes": 7621
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/annotated.html",
+      "bytes": 12545
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/bc_s.png",
+      "bytes": 676
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/bdwn.png",
+      "bytes": 147
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classes.html",
+      "bytes": 7822
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car-members.html",
+      "bytes": 13231
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car.html",
+      "bytes": 26483
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car.png",
+      "bytes": 671
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car__coll__graph.map",
+      "bytes": 236
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car__coll__graph.png",
+      "bytes": 4645
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car__inherit__graph.map",
+      "bytes": 236
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_race_car__inherit__graph.png",
+      "bytes": 4645
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator-members.html",
+      "bytes": 8552
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator.html",
+      "bytes": 18765
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator.png",
+      "bytes": 678
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator__coll__graph.map",
+      "bytes": 240
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator__coll__graph.png",
+      "bytes": 4834
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator__inherit__graph.map",
+      "bytes": 240
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1base__classes_1_1_simulator__inherit__graph.png",
+      "bytes": 4834
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests-members.html",
+      "bytes": 7234
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests.html",
+      "bytes": 8579
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests.png",
+      "bytes": 876
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests__coll__graph.map",
+      "bytes": 258
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests__coll__graph.png",
+      "bytes": 4618
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests__inherit__graph.map",
+      "bytes": 258
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests__inherit__graph.png",
+      "bytes": 4618
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test-members.html",
+      "bytes": 12163
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test.html",
+      "bytes": 12882
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test.png",
+      "bytes": 890
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test__coll__graph.map",
+      "bytes": 250
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test__coll__graph.png",
+      "bytes": 4885
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test__inherit__graph.map",
+      "bytes": 250
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test__inherit__graph.png",
+      "bytes": 4885
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env-members.html",
+      "bytes": 15318
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env.html",
+      "bytes": 26740
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env.png",
+      "bytes": 942
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env__coll__graph.map",
+      "bytes": 297
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env__coll__graph.png",
+      "bytes": 5514
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env__inherit__graph.map",
+      "bytes": 297
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env__inherit__graph.png",
+      "bytes": 5514
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env-members.html",
+      "bytes": 22693
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env.html",
+      "bytes": 25870
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env.png",
+      "bytes": 1062
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env__coll__graph.map",
+      "bytes": 312
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env__coll__graph.png",
+      "bytes": 7347
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env__inherit__graph.map",
+      "bytes": 312
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env__inherit__graph.png",
+      "bytes": 7347
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d-members.html",
+      "bytes": 13533
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d.html",
+      "bytes": 17338
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d.png",
+      "bytes": 822
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d__coll__graph.map",
+      "bytes": 252
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d__coll__graph.png",
+      "bytes": 5204
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d__inherit__graph.map",
+      "bytes": 252
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d__inherit__graph.png",
+      "bytes": 5204
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests-members.html",
+      "bytes": 7200
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests.html",
+      "bytes": 8737
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests.png",
+      "bytes": 775
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests__coll__graph.map",
+      "bytes": 240
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests__coll__graph.png",
+      "bytes": 4911
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests__inherit__graph.map",
+      "bytes": 240
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests__inherit__graph.png",
+      "bytes": 4911
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer-members.html",
+      "bytes": 11776
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer.html",
+      "bytes": 25151
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer__coll__graph.map",
+      "bytes": 238
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer__coll__graph.png",
+      "bytes": 4378
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer__inherit__graph.map",
+      "bytes": 238
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer__inherit__graph.png",
+      "bytes": 4378
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests-members.html",
+      "bytes": 6941
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests.html",
+      "bytes": 8277
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests.png",
+      "bytes": 906
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests__coll__graph.map",
+      "bytes": 266
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests__coll__graph.png",
+      "bytes": 5073
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests__inherit__graph.map",
+      "bytes": 266
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests__inherit__graph.png",
+      "bytes": 5073
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test-members.html",
+      "bytes": 12442
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test.html",
+      "bytes": 12930
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test.png",
+      "bytes": 883
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test__coll__graph.map",
+      "bytes": 256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test__coll__graph.png",
+      "bytes": 4626
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test__inherit__graph.map",
+      "bytes": 256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test__inherit__graph.png",
+      "bytes": 4626
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_camera-members.html",
+      "bytes": 9044
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_camera.html",
+      "bytes": 14125
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_camera__inherit__graph.map",
+      "bytes": 315
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_camera__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_camera__inherit__graph.png",
+      "bytes": 5903
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera-members.html",
+      "bytes": 9154
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera.html",
+      "bytes": 14074
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera__coll__graph.map",
+      "bytes": 322
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera__coll__graph.png",
+      "bytes": 5857
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera__inherit__graph.map",
+      "bytes": 322
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera__inherit__graph.png",
+      "bytes": 5857
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app-members.html",
+      "bytes": 9068
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app.html",
+      "bytes": 10295
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app__coll__graph.map",
+      "bytes": 247
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app__coll__graph.png",
+      "bytes": 5726
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app__inherit__graph.map",
+      "bytes": 247
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app__inherit__graph.png",
+      "bytes": 5726
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d-members.html",
+      "bytes": 13533
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d.html",
+      "bytes": 17338
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d.png",
+      "bytes": 758
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d__coll__graph.map",
+      "bytes": 252
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d__coll__graph.png",
+      "bytes": 5160
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d__inherit__graph.map",
+      "bytes": 252
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d__inherit__graph.png",
+      "bytes": 5160
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests-members.html",
+      "bytes": 7200
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests.html",
+      "bytes": 8737
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests.png",
+      "bytes": 757
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests__coll__graph.map",
+      "bytes": 240
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests__coll__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests__coll__graph.png",
+      "bytes": 4768
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests__inherit__graph.map",
+      "bytes": 240
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests__inherit__graph.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests__inherit__graph.png",
+      "bytes": 4768
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/closed.png",
+      "bytes": 132
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/dir_0d9aa0052a6017cb7aea189bf393af42.html",
+      "bytes": 3292
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/dir_70fc25f479e8e19f7e6bd12b95eca2dc.html",
+      "bytes": 3254
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/dir_87aab0849a7ff80b67f27d7f0ecafd88.html",
+      "bytes": 3242
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/dir_cc06cd2fc16f827f09405fcedd02c7bb.html",
+      "bytes": 3178
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/doc.png",
+      "bytes": 746
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/doxygen.css",
+      "bytes": 31103
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/doxygen.png",
+      "bytes": 3779
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/doxygen.svg",
+      "bytes": 15382
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/dynsections.js",
+      "bytes": 4086
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/folderclosed.png",
+      "bytes": 616
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/folderopen.png",
+      "bytes": 597
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/functions.html",
+      "bytes": 9788
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/functions_func.html",
+      "bytes": 9676
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/graph_legend.html",
+      "bytes": 7085
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/graph_legend.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/graph_legend.png",
+      "bytes": 20608
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/hierarchy.html",
+      "bytes": 10641
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/index.html",
+      "bytes": 2837
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_0.map",
+      "bytes": 723
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_0.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_0.png",
+      "bytes": 18513
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_1.map",
+      "bytes": 1031
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_1.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_1.png",
+      "bytes": 29112
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_2.map",
+      "bytes": 492
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_2.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_2.png",
+      "bytes": 8565
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_3.map",
+      "bytes": 428
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_3.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_3.png",
+      "bytes": 7298
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_4.map",
+      "bytes": 360
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_4.md5",
+      "bytes": 32
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherit_graph_4.png",
+      "bytes": 3393
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/inherits.html",
+      "bytes": 6575
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/jquery.js",
+      "bytes": 175457
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/menu.js",
+      "bytes": 2856
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/menudata.js",
+      "bytes": 2126
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/namespacef110__gym_1_1unittest_1_1random__trackgen.html",
+      "bytes": 6282
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/namespaces.html",
+      "bytes": 11197
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/nav_f.png",
+      "bytes": 153
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/nav_g.png",
+      "bytes": 95
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/nav_h.png",
+      "bytes": 98
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/open.png",
+      "bytes": 123
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_0.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_0.js",
+      "bytes": 842
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_1.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_1.js",
+      "bytes": 155
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_2.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_2.js",
+      "bytes": 973
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_3.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_3.js",
+      "bytes": 301
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_4.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_4.js",
+      "bytes": 152
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_5.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_5.js",
+      "bytes": 257
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_6.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_6.js",
+      "bytes": 202
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_7.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_7.js",
+      "bytes": 188
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_8.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_8.js",
+      "bytes": 928
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_9.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_9.js",
+      "bytes": 371
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_a.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_a.js",
+      "bytes": 959
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_b.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_b.js",
+      "bytes": 2009
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_c.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_c.js",
+      "bytes": 1589
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_d.html",
+      "bytes": 1256
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/all_d.js",
+      "bytes": 188
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_0.html",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_0.js",
+      "bytes": 156
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_1.html",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_1.js",
+      "bytes": 609
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_2.html",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_2.js",
+      "bytes": 302
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_3.html",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_3.js",
+      "bytes": 153
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_4.html",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_4.js",
+      "bytes": 257
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_5.html",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_5.js",
+      "bytes": 148
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_6.html",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/classes_6.js",
+      "bytes": 691
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/close.png",
+      "bytes": 273
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/close.svg",
+      "bytes": 1284
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_0.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_0.js",
+      "bytes": 844
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_1.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_1.js",
+      "bytes": 389
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_2.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_2.js",
+      "bytes": 202
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_3.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_3.js",
+      "bytes": 188
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_4.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_4.js",
+      "bytes": 928
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_5.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_5.js",
+      "bytes": 371
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_6.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_6.js",
+      "bytes": 831
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_7.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_7.js",
+      "bytes": 1338
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_8.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_8.js",
+      "bytes": 1589
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_9.html",
+      "bytes": 1262
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/functions_9.js",
+      "bytes": 188
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/mag_sel.png",
+      "bytes": 465
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/mag_sel.svg",
+      "bytes": 2378
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/namespaces_0.html",
+      "bytes": 1452
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/namespaces_0.js",
+      "bytes": 154
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/nomatches.html",
+      "bytes": 462
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/search.css",
+      "bytes": 4460
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/search.js",
+      "bytes": 23072
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/search_l.png",
+      "bytes": 567
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/search_m.png",
+      "bytes": 158
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/search_r.png",
+      "bytes": 553
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/search/searchdata.js",
+      "bytes": 245
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/splitbar.png",
+      "bytes": 314
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/sync_off.png",
+      "bytes": 853
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/sync_on.png",
+      "bytes": 845
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/tab_a.png",
+      "bytes": 142
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/tab_b.png",
+      "bytes": 169
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/tab_h.png",
+      "bytes": 177
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/tab_s.png",
+      "bytes": 184
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/html/tabs.css",
+      "bytes": 8700
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/index.rst",
+      "bytes": 3098
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/installation.rst",
+      "bytes": 1135
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/make.bat",
+      "bytes": 795
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/reproduce.rst",
+      "bytes": 135
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/requirements.txt",
+      "bytes": 7
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/____init_____8py.xml",
+      "bytes": 1445
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/base__classes_8py.xml",
+      "bytes": 111278
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1base__classes_1_1_race_car.xml",
+      "bytes": 33832
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1base__classes_1_1_simulator.xml",
+      "bytes": 19902
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1collision__models_1_1_collision_tests.xml",
+      "bytes": 11910
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1dynamic__models_1_1_dynamics_test.xml",
+      "bytes": 24472
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1f110__env_1_1_f110_env.xml",
+      "bytes": 43092
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1f110__env__backup_1_1_f110_env.xml",
+      "bytes": 62964
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1laser__models_1_1_scan_simulator2_d.xml",
+      "bytes": 29690
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1laser__models_1_1_scan_tests.xml",
+      "bytes": 12052
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1envs_1_1rendering_1_1_env_renderer.xml",
+      "bytes": 29602
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1unittest_1_1collision__checks_1_1_collision_tests.xml",
+      "bytes": 10920
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1unittest_1_1dynamics__test_1_1_dynamics_test.xml",
+      "bytes": 24892
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1unittest_1_1pyglet__test_1_1_camera.xml",
+      "bytes": 21755
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1unittest_1_1pyglet__test_1_1_centered_camera.xml",
+      "bytes": 7765
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1unittest_1_1pyglet__test__camera_1_1_app.xml",
+      "bytes": 18713
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_simulator2_d.xml",
+      "bytes": 29690
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/classf110__gym_1_1unittest_1_1scan__sim_1_1_scan_tests.xml",
+      "bytes": 12072
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/collision__checks_8py.xml",
+      "bytes": 49365
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/collision__models_8py.xml",
+      "bytes": 58981
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/combine.xslt",
+      "bytes": 646
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/compound.xsd",
+      "bytes": 53174
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/dir_0d9aa0052a6017cb7aea189bf393af42.xml",
+      "bytes": 821
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/dir_70fc25f479e8e19f7e6bd12b95eca2dc.xml",
+      "bytes": 1120
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/dir_87aab0849a7ff80b67f27d7f0ecafd88.xml",
+      "bytes": 1086
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/dir_cc06cd2fc16f827f09405fcedd02c7bb.xml",
+      "bytes": 613
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/dynamic__models_8py.xml",
+      "bytes": 103438
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/dynamics__test_8py.xml",
+      "bytes": 98483
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/envs_2____init_____8py.xml",
+      "bytes": 2407
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/f110__env_8py.xml",
+      "bytes": 78788
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/f110__env__backup_8py.xml",
+      "bytes": 147109
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/f110__gym_2____init_____8py.xml",
+      "bytes": 1474
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/f110__gym_2envs_2____init_____8py.xml",
+      "bytes": 2436
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/f110__gym_2unittest_2____init_____8py.xml",
+      "bytes": 1129
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/index.xml",
+      "bytes": 75238
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/index.xsd",
+      "bytes": 2425
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/laser__models_8py.xml",
+      "bytes": 118657
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/legacy__scan__gen_8py.xml",
+      "bytes": 18915
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym.xml",
+      "bytes": 2053
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs.xml",
+      "bytes": 1372
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs_1_1base__classes.xml",
+      "bytes": 864
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs_1_1collision__models.xml",
+      "bytes": 12647
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs_1_1dynamic__models.xml",
+      "bytes": 19163
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs_1_1f110__env.xml",
+      "bytes": 3650
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs_1_1f110__env__backup.xml",
+      "bytes": 736
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs_1_1laser__models.xml",
+      "bytes": 21349
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1envs_1_1rendering.xml",
+      "bytes": 3735
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest.xml",
+      "bytes": 1462
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest_1_1collision__checks.xml",
+      "bytes": 11463
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest_1_1dynamics__test.xml",
+      "bytes": 18567
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest_1_1legacy__scan__gen.xml",
+      "bytes": 21183
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest_1_1pyglet__test.xml",
+      "bytes": 26489
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest_1_1pyglet__test__camera.xml",
+      "bytes": 2409
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest_1_1random__trackgen.xml",
+      "bytes": 10763
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacef110__gym_1_1unittest_1_1scan__sim.xml",
+      "bytes": 13664
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacegym.xml",
+      "bytes": 486
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacegym_1_1envs_1_1unittest_1_1scan__sim.xml",
+      "bytes": 580
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespacepyglet_1_1gl.xml",
+      "bytes": 534
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespaceunittest.xml",
+      "bytes": 496
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/namespaceutils.xml",
+      "bytes": 490
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/pyglet__test_8py.xml",
+      "bytes": 39435
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/pyglet__test__camera_8py.xml",
+      "bytes": 27329
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/random__trackgen_8py.xml",
+      "bytes": 45303
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/rendering_8py.xml",
+      "bytes": 72878
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/scan__sim_8py.xml",
+      "bytes": 93215
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/unittest_2____init_____8py.xml",
+      "bytes": 1100
+    },
+    {
+      "path": "vendor/f1tenth_gym/docs/xml/xml.xsd",
+      "bytes": 666
+    },
+    {
+      "path": "vendor/f1tenth_gym/examples/config_example_map.yaml",
+      "bytes": 667
+    },
+    {
+      "path": "vendor/f1tenth_gym/examples/example_map.png",
+      "bytes": 35533
+    },
+    {
+      "path": "vendor/f1tenth_gym/examples/example_map.yaml",
+      "bytes": 153
+    },
+    {
+      "path": "vendor/f1tenth_gym/examples/example_waypoints.csv",
+      "bytes": 63637
+    },
+    {
+      "path": "vendor/f1tenth_gym/examples/waypoint_follow.py",
+      "bytes": 10265
+    },
+    {
+      "path": "vendor/metadrive/.github/.codecov.yml",
+      "bytes": 66
+    },
+    {
+      "path": "vendor/metadrive/.github/pull_request_template.md",
+      "bytes": 257
+    },
+    {
+      "path": "vendor/metadrive/.github/workflows/main.yml",
+      "bytes": 11711
+    },
+    {
+      "path": "vendor/metadrive/.gitignore",
+      "bytes": 1208
+    },
+    {
+      "path": "vendor/metadrive/.readthedocs.yaml",
+      "bytes": 1154
+    },
+    {
+      "path": "vendor/metadrive/.style.yapf",
+      "bytes": 169
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/README.md",
+      "bytes": 1255
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/_delete_rviz_line.py",
+      "bytes": 742
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/ros_socket_server.py",
+      "bytes": 6597
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/launch/metadrive_example_bridge.launch.py",
+      "bytes": 944
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/metadrive_example_bridge/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/metadrive_example_bridge/camera_bridge.py",
+      "bytes": 2316
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/metadrive_example_bridge/lidar_bridge.py",
+      "bytes": 4256
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/metadrive_example_bridge/obj_bridge.py",
+      "bytes": 2725
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/package.xml",
+      "bytes": 580
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/resource/metadrive_example_bridge",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/rviz/default.rviz",
+      "bytes": 6790
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/setup.cfg",
+      "bytes": 117
+    },
+    {
+      "path": "vendor/metadrive/bridges/ros_bridge/src/metadrive_example_bridge/setup.py",
+      "bytes": 952
+    },
+    {
+      "path": "vendor/metadrive/documentation/Makefile",
+      "bytes": 638
+    },
+    {
+      "path": "vendor/metadrive/documentation/README.md",
+      "bytes": 2404
+    },
+    {
+      "path": "vendor/metadrive/documentation/make.bat",
+      "bytes": 764
+    },
+    {
+      "path": "vendor/metadrive/documentation/requirements.txt",
+      "bytes": 1196
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/action.ipynb",
+      "bytes": 12633707
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/before_reading.ipynb",
+      "bytes": 1451
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/conf.py",
+      "bytes": 3622
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/config_system.ipynb",
+      "bytes": 9558
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/custom.css",
+      "bytes": 72
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/debug_mode.ipynb",
+      "bytes": 9402
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/di_drive.rst",
+      "bytes": 1231
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/blocks_and_big_case_page.jpg",
+      "bytes": 275190
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/coordinates.png",
+      "bytes": 475125
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/debug_physics.png",
+      "bytes": 456859
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/debug_static.png",
+      "bytes": 454063
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/depth_obs.jpg",
+      "bytes": 5694
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/draw.png",
+      "bytes": 694869
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/execution_queue.png",
+      "bytes": 135739
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/logo-horizon.png",
+      "bytes": 1987455
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/main_camera_from_observation.png",
+      "bytes": 269026
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/metadrive-envs.jpg",
+      "bytes": 527350
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/observation_demo.png",
+      "bytes": 292877
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/pstats.png",
+      "bytes": 332397
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/rgb_obs.png",
+      "bytes": 19737
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/scenarionet.png",
+      "bytes": 1215702
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/sim.png",
+      "bytes": 199678
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/figs/top_down_obs.png",
+      "bytes": 117697
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/get_start.rst",
+      "bytes": 3708
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/index.rst",
+      "bytes": 5424
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/install.rst",
+      "bytes": 5268
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/log_msg.ipynb",
+      "bytes": 7407
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/map.ipynb",
+      "bytes": 895
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/multigoal_intersection.ipynb",
+      "bytes": 38924
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/navigation.ipynb",
+      "bytes": 789
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/new_env.ipynb",
+      "bytes": 14538
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/obs.ipynb",
+      "bytes": 22213271
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/opendrive.rst",
+      "bytes": 63
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/panda_render.ipynb",
+      "bytes": 794
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/points_and_lines.ipynb",
+      "bytes": 8660
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/record_replay.ipynb",
+      "bytes": 799
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/reward_cost_done.ipynb",
+      "bytes": 39741
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/rl_environments.ipynb",
+      "bytes": 5890373
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/ros.rst",
+      "bytes": 1818
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/scenario_description.ipynb",
+      "bytes": 78993
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/scenarionet.rst",
+      "bytes": 1129
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/sensors.ipynb",
+      "bytes": 89262
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/simgen_render.ipynb",
+      "bytes": 12364
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/sumo.rst",
+      "bytes": 45
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/system_design.ipynb",
+      "bytes": 36001
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/top_down_render.ipynb",
+      "bytes": 10703
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/training.ipynb",
+      "bytes": 249644
+    },
+    {
+      "path": "vendor/metadrive/documentation/source/vehicle.ipynb",
+      "bytes": 813
+    },
+    {
+      "path": "vendor/metadrive/format.sh",
+      "bytes": 666
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/Basic_MetaDrive_Usages.ipynb",
+      "bytes": 16849
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/__init__.py",
+      "bytes": 403
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/custom_inramp_env.py",
+      "bytes": 1033
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/draw_maps.py",
+      "bytes": 1048
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/drive_in_multi_agent_env.py",
+      "bytes": 3315
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/drive_in_real_env.py",
+      "bytes": 2429
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/drive_in_real_env_with_bounding_box.py",
+      "bytes": 2099
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/drive_in_safe_metadrive_env.py",
+      "bytes": 1500
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/drive_in_single_agent_env.py",
+      "bytes": 2818
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/generate_video_for_bev_and_interface.py",
+      "bytes": 3284
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/point_cloud_lidar.py",
+      "bytes": 1758
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/ppo_expert/__init__.py",
+      "bytes": 215
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/ppo_expert/_evaluate_expert.py",
+      "bytes": 7559
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/ppo_expert/expert_weights.npz",
+      "bytes": 511659
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/ppo_expert/numpy_expert.py",
+      "bytes": 4210
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/ppo_expert/remove_useless_state.py",
+      "bytes": 1084
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/ppo_expert/torch_expert.py",
+      "bytes": 4333
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/procedural_generation.py",
+      "bytes": 183
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/profile_metadrive.py",
+      "bytes": 1824
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/profile_metadrive_marl.py",
+      "bytes": 1658
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/read_and_visualize_scenario_description.py",
+      "bytes": 0
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/run_scenario_online_env.py",
+      "bytes": 1865
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/run_waypoint_policy.py",
+      "bytes": 2005
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/top_down_metadrive.py",
+      "bytes": 3285
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/train_generalization_experiment.py",
+      "bytes": 8546
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/verify_headless_installation.py",
+      "bytes": 493
+    },
+    {
+      "path": "vendor/metadrive/metadrive/examples/verify_image_observation.py",
+      "bytes": 3639
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/benchmark_FPS/benchmark_waymo.py",
+      "bytes": 1650
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/local_tests/local_test_apply_action.py",
+      "bytes": 631
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/local_tests/local_test_close_and_restart.py",
+      "bytes": 1804
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/local_tests/local_test_headless_rendering.py",
+      "bytes": 3615
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/local_tests/local_test_memory_leak_with_rendering.py",
+      "bytes": 1168
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/benchmark_brake.py",
+      "bytes": 3780
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/capture_obs.py",
+      "bytes": 2518
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/capture_rgb_and_send_to_other_process.py",
+      "bytes": 2408
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/compute_shader.glsl",
+      "bytes": 619
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/compute_shader.py",
+      "bytes": 1292
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/cupy_open_gl_interoperation.py",
+      "bytes": 7935
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/generate_video_for_image_obs.py",
+      "bytes": 5792
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/multiview_generation_with_image_on_cuda.py",
+      "bytes": 3554
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/offscreen_rendering.py",
+      "bytes": 1428
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/profile_env.py",
+      "bytes": 424
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/profile_map_generation.py",
+      "bytes": 721
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/profile_reset.py",
+      "bytes": 626
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/profile_top_down_env.py",
+      "bytes": 750
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/profile_top_down_multi_channel_env.py",
+      "bytes": 762
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/scripts/profile_top_down_v2.py",
+      "bytes": 732
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/_test_osm_read.py",
+      "bytes": 478
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_asset_loader.py",
+      "bytes": 599
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_bicycle_model.py",
+      "bytes": 2088
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_camera.py",
+      "bytes": 2864
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_config.py",
+      "bytes": 6164
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_config_consistency.py",
+      "bytes": 1861
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_curriculum_reset.py",
+      "bytes": 10321
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_detector_mask.py",
+      "bytes": 12451
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_distance_detector.py",
+      "bytes": 5618
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_ego_vehicle.py",
+      "bytes": 3805
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_engine_buffer.py",
+      "bytes": 497
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_lane_line_detector.py",
+      "bytes": 17584
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_map.py",
+      "bytes": 2969
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_memory_leak_close_reset.py",
+      "bytes": 1528
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_sd_summary.py",
+      "bytes": 3068
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_set_get_vehicle_attribute.py",
+      "bytes": 12293
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_store_map_memory_leak.py",
+      "bytes": 3595
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_traffic_light.py",
+      "bytes": 6032
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_utils.py",
+      "bytes": 763
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_varying_dynamics_vehicle.py",
+      "bytes": 1963
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/test_vehicle_coordinates.py",
+      "bytes": 1495
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/texture_merge.py",
+      "bytes": 874
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_component/usage_of_pyrosm.ipynb",
+      "bytes": 412250
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/_test_action_repeat_env.py",
+      "bytes": 1150
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/_test_change_friction_density_envs.py",
+      "bytes": 1206
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/_test_remote_metadrive_env.py",
+      "bytes": 545
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/local_test_metadrive_rgb_depth.py",
+      "bytes": 1023
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_build_city.py",
+      "bytes": 821
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_gym_wrapper.py",
+      "bytes": 13215
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_bidirection.py",
+      "bytes": 1446
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_bottleneck_env.py",
+      "bytes": 27531
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_env_force_reset.py",
+      "bytes": 1157
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_intersection.py",
+      "bytes": 28944
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_parking_lot.py",
+      "bytes": 25987
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_racing.py",
+      "bytes": 7221
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_roundabout_env.py",
+      "bytes": 27125
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_ma_tollgate.py",
+      "bytes": 27634
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_metadrive_env.py",
+      "bytes": 2857
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_multigoal_env.py",
+      "bytes": 2695
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_naive_multi_agent.py",
+      "bytes": 2035
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_safe_env.py",
+      "bytes": 909
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_scenario_online_env.py",
+      "bytes": 1872
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_top_down_env.py",
+      "bytes": 2434
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_varying_dynamics_env.py",
+      "bytes": 692
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_env/test_waymo_env.py",
+      "bytes": 3426
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_examples/test_examples.py",
+      "bytes": 2262
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_export_record_scenario/test_avoid_duplicate_name.py",
+      "bytes": 2140
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_export_record_scenario/test_connectivity.py",
+      "bytes": 3939
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_export_record_scenario/test_export_scenario.py",
+      "bytes": 3573
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_export_record_scenario/test_export_scenario_consistency_test.py",
+      "bytes": 16709
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_export_record_scenario/test_save_replay_episode.py",
+      "bytes": 5981
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_export_record_scenario/test_save_replay_via_policy.py",
+      "bytes": 2607
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/_test_load_carla_town.py",
+      "bytes": 1396
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_change_agent_num.py",
+      "bytes": 1010
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_close_and_reset.py",
+      "bytes": 788
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_collision.py",
+      "bytes": 2147
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_destroy.py",
+      "bytes": 1342
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_discrete_action.py",
+      "bytes": 2702
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_episode_release.py",
+      "bytes": 625
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_export_map.py",
+      "bytes": 1270
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_fps.py",
+      "bytes": 873
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_gen_map_alignment.py",
+      "bytes": 893
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_gen_map_read.py",
+      "bytes": 1448
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_get_closest_lane.py",
+      "bytes": 1111
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_get_map_image.py",
+      "bytes": 728
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_horizon_termination.py",
+      "bytes": 2116
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_loading_map_from_json.py",
+      "bytes": 2265
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_marl_infinite_agents.py",
+      "bytes": 2207
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_marl_reborn.py",
+      "bytes": 5736
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_memory_leak_engine.py",
+      "bytes": 3992
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_memory_leak_pg_map.py",
+      "bytes": 1913
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_memory_leak_waymo_map.py",
+      "bytes": 3709
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_navigation.py",
+      "bytes": 3176
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_nested_config.py",
+      "bytes": 1942
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_nondeterminism.py",
+      "bytes": 5150
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_object_collision_detection.py",
+      "bytes": 9180
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_obs_action_space.py",
+      "bytes": 584
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_obs_noise.py",
+      "bytes": 2211
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_out_of_road.py",
+      "bytes": 2978
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_pedestrian.py",
+      "bytes": 2553
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_random_engine.py",
+      "bytes": 6502
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_read_data.py",
+      "bytes": 885
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_reborn.py",
+      "bytes": 973
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_reward_cost_done.py",
+      "bytes": 2984
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_rewrite_vertex.py",
+      "bytes": 554
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_route_completion.py",
+      "bytes": 1941
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_scenario_randomness.py",
+      "bytes": 2554
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_sensors_config.py",
+      "bytes": 2222
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_top_down_semantics.py",
+      "bytes": 1825
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_functionality/test_traffic_mode.py",
+      "bytes": 1268
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_installation.py",
+      "bytes": 3736
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_policy/test_expert_performance.py",
+      "bytes": 4490
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_policy/test_full_stop.py",
+      "bytes": 1156
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_policy/test_idm_policy.py",
+      "bytes": 4249
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_policy/test_lane_change_policy.py",
+      "bytes": 2791
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_policy/test_trajectory_idm_policy.py",
+      "bytes": 3632
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_policy/test_waypoint_policy.py",
+      "bytes": 4105
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_close_reset_for_3d_render.py",
+      "bytes": 1201
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_depth_cam.py",
+      "bytes": 2209
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_first_frame_depth_cam.py",
+      "bytes": 2497
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_instance_cam.py",
+      "bytes": 4170
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_main_camera.py",
+      "bytes": 2091
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_map_visualizer.py",
+      "bytes": 1039
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_point_cloud.py",
+      "bytes": 2236
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_rgb_cam.py",
+      "bytes": 2078
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_semantic_cam.py",
+      "bytes": 2465
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_sensor_creation.py",
+      "bytes": 8499
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/test_sensors/test_simgen.py",
+      "bytes": 9164
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/tools/adjust_collision_model.py",
+      "bytes": 2413
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/tools/update_waymo_assets.py",
+      "bytes": 2374
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/map_test.pgm",
+      "bytes": 1528
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_a_small_town.py",
+      "bytes": 9061
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_big.py",
+      "bytes": 777
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_block_base.py",
+      "bytes": 5467
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_bottleneck.py",
+      "bytes": 817
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_curve_block.py",
+      "bytes": 996
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_in_ramp.py",
+      "bytes": 1139
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_intersection.py",
+      "bytes": 1260
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_out_ramp.py",
+      "bytes": 923
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_parking_lot.py",
+      "bytes": 1654
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_roundabout.py",
+      "bytes": 1023
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_std_intersection.py",
+      "bytes": 1133
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_std_t_intersection.py",
+      "bytes": 1376
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_straight_block.py",
+      "bytes": 796
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_t_intersection.py",
+      "bytes": 1365
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_block/vis_yy.py",
+      "bytes": 1922
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_acc_break.py",
+      "bytes": 1041
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_metadrive_env.py",
+      "bytes": 6742
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_multi_agent_env.py",
+      "bytes": 1168
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_multi_agent_env_tiny.py",
+      "bytes": 1032
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_nuscenes.py",
+      "bytes": 4366
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_safe_metadrive.py",
+      "bytes": 1038
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_sumo_map.py",
+      "bytes": 3792
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_topdown.py",
+      "bytes": 2225
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_env/vis_waymo_env.py",
+      "bytes": 1723
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/batch_point_cloud.py",
+      "bytes": 3695
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/build_panda3d.sh",
+      "bytes": 710
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/profile_rgb_cam.py",
+      "bytes": 1146
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/to_point_cloud.py",
+      "bytes": 2461
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_build_city.py",
+      "bytes": 887
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_camera_efficiency.py",
+      "bytes": 1358
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_cuda_image.py",
+      "bytes": 7313
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_cuda_image_multi_thread.py",
+      "bytes": 7795
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_cuda_make_buffer.py",
+      "bytes": 8001
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_cuda_profile_metadrive.py",
+      "bytes": 4270
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_depth_cam.py",
+      "bytes": 1970
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_gen_map_read.py",
+      "bytes": 1099
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_grayscale_cam.py",
+      "bytes": 1657
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_highway_render.py",
+      "bytes": 1026
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_manual_control_top_down_env.py",
+      "bytes": 947
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_memory_leak.py",
+      "bytes": 843
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_mini_map.py",
+      "bytes": 1047
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_pedestrian.py",
+      "bytes": 4599
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_point_cloud.py",
+      "bytes": 2142
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_render_msg.py",
+      "bytes": 1040
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_rgb_cam.py",
+      "bytes": 1903
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_rgb_depth_cam.py",
+      "bytes": 2174
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_saver.py",
+      "bytes": 713
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_semantic_cam.py",
+      "bytes": 2259
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_shared_camera.py",
+      "bytes": 915
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_traffic_light.py",
+      "bytes": 2042
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_two_speed_retrieve.py",
+      "bytes": 1105
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_functionality/vis_vehicle_num.py",
+      "bytes": 625
+    },
+    {
+      "path": "vendor/metadrive/metadrive/tests/vis_opendrive_map/vis_carla_town_1.py",
+      "bytes": 1319
+    },
+    {
+      "path": "docs/project_manifest.json",
+      "bytes": 937573
+    }
+  ],
+  "new_or_adapted_files": [
+    "README.md",
+    "docs/REPRODUCIBILITY.md",
+    "docs/ARTICLE_LINKAGE.json",
+    "docs/ARTICLE_DATA_MAP.md",
+    "docs/CONFIGURATION_DETAILS.md",
+    "docs/RUN_LIMITS.csv",
+    "docs/THIRD_PARTY_NOTICES.md",
+    "docs/PACKAGING_CHANGES.json",
+    "src/export_figures.py",
+    "verify_package.py",
+    "checks/independent_recheck.json",
+    "checks/package_validation.json",
+    "checks/analysis_recheck.log",
+    "checks/contracts_recheck.log",
+    "MANIFEST_SHA256.csv",
+    "checks/upstream_subset_check.json",
+    "checks/article_consistency.json"
+  ],
+  "core_experiment_code_changed": false,
+  "raw_run_data_changed": false,
+  "original_archive_modified": false,
+  "upstream_note": "Only unused documentation, examples, tests, ROS bridges and repository maintenance files were omitted from upstream snapshots. Retained source/assets match the supplied upstream hashes. Original complete upstream manifest retained for provenance; omissions are listed here."
+}

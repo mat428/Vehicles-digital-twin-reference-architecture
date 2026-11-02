@@ -1,0 +1,12 @@
+{
+  "article_title": "A Reference Architecture for Digital Twin\u2013Based Co-Simulation and Verification of Intelligent Vehicle Control Systems",
+  "authoritative_article_filename": "main revised A_Reference_Architecture_for_Digital_Twin__Based_Co_Simulation_and_Verification_of_Intelligent_Vehicle_Control_Systems (8).pdf",
+  "authoritative_article_sha256": "6110ae162494d7cb70ebd2fd8b317626c6f0173202c8fd0666c9652b292bf87b",
+  "article_included": false,
+  "original_project_zip_sha256": "d619e91e49be8b380e093ddf0b6a04f6a24d36d4ca35e1abde6351c2c325936e",
+  "primary_runs": 864,
+  "calibration_runs": 24,
+  "separate_timestep_checks": 6,
+  "separate_installation_checks": 2,
+  "note": "The manuscripts in the original project ZIP are older and have been omitted. The separately supplied revised PDF defines article scope."
+}

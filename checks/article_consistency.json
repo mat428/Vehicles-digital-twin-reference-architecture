@@ -1,0 +1,27 @@
+{
+  "article": "Separately supplied revised PDF; SHA-256 in docs/ARTICLE_LINKAGE.json",
+  "comparison": "Counts and rounded numerical values in final article Tables 3\u20135, checked against delivered summaries; no physical/native rerun",
+  "checks": {
+    "primary_runs": true,
+    "control_rows": true,
+    "observation_rows": true,
+    "all_circuits_completed": true,
+    "f1tenth_table3": true,
+    "metadrive_table3": true,
+    "f1tenth_table4": true,
+    "metadrive_table4": true,
+    "f1tenth_table5_-8": true,
+    "f1tenth_table5_-2": true,
+    "f1tenth_table5_2": true,
+    "f1tenth_table5_8": true,
+    "f1tenth_table5_dropout": true,
+    "f1tenth_table5_burst": true,
+    "metadrive_table5_-8": true,
+    "metadrive_table5_-2": true,
+    "metadrive_table5_2": true,
+    "metadrive_table5_8": true,
+    "metadrive_table5_dropout": true,
+    "metadrive_table5_burst": true,
+    "all_pass": true
+  }
+}

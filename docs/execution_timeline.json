@@ -1,0 +1,50 @@
+[
+  {
+    "backend": "f1tenth",
+    "phase": "calibration",
+    "campaign": "A",
+    "started_utc": "2026-10-16T22:23:30.974832+00:00",
+    "returncode": 0,
+    "ended_utc": "2026-10-16T22:23:39.803844+00:00"
+  },
+  {
+    "backend": "f1tenth",
+    "phase": "campaign",
+    "campaign": "A",
+    "started_utc": "2026-10-16T22:23:39.804143+00:00",
+    "returncode": 0,
+    "ended_utc": "2026-10-16T22:25:41.520812+00:00"
+  },
+  {
+    "backend": "f1tenth",
+    "phase": "campaign",
+    "campaign": "B",
+    "started_utc": "2026-10-16T22:25:41.521178+00:00",
+    "returncode": 0,
+    "ended_utc": "2026-10-16T22:27:40.417537+00:00"
+  },
+  {
+    "backend": "metadrive",
+    "phase": "calibration",
+    "campaign": "A",
+    "started_utc": "2026-10-16T22:27:40.418811+00:00",
+    "returncode": 0,
+    "ended_utc": "2026-10-16T22:28:21.854307+00:00"
+  },
+  {
+    "backend": "metadrive",
+    "phase": "campaign",
+    "campaign": "A",
+    "started_utc": "2026-10-16T22:28:21.854574+00:00",
+    "returncode": 0,
+    "ended_utc": "2026-10-16T22:40:38.715008+00:00"
+  },
+  {
+    "backend": "metadrive",
+    "phase": "campaign",
+    "campaign": "B",
+    "started_utc": "2026-10-16T22:40:38.717372+00:00",
+    "returncode": 0,
+    "ended_utc": "2026-10-16T22:54:09.038445+00:00"
+  }
+]

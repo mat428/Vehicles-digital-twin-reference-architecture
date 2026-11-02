@@ -1,0 +1,22 @@
+{
+  "all_checks_pass": true,
+  "primary_runs": 864,
+  "calibration_refits": [
+    {
+      "backend": "f1tenth",
+      "gain": 0.9692712357550443,
+      "threshold_rad_s": 0.11612173182916677,
+      "samples": 2449,
+      "runs": 12
+    },
+    {
+      "backend": "metadrive",
+      "gain": 0.9870621863737112,
+      "threshold_rad_s": 0.07265803750143306,
+      "samples": 6730,
+      "runs": 12
+    }
+  ],
+  "max_observer_replay_difference": 0.0,
+  "independence": "standard-library CSV, own equations; no runtime Monitor/predictor imports"
+}

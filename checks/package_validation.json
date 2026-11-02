@@ -1,0 +1,17 @@
+{
+  "primary_runs": 864,
+  "calibration_runs": 24,
+  "control_records": 1009406,
+  "observation_records": 403901,
+  "completed_circuits": 864,
+  "boundary_failures": 0,
+  "all_checks_pass": true,
+  "eligible_nominal_prefault_yaw_alarm_deliveries": 66,
+  "packaging_checks": {
+    "contract_tests_passed": 7,
+    "article_numeric_checks_passed": 20,
+    "independent_standard_library_recheck_passed": true,
+    "native_physics_rerun": false,
+    "figure_exporter_tested": true
+  }
+}

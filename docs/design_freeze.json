@@ -1,0 +1,12 @@
+{
+  "frozen_utc": "2026-10-16T22:23:19.861069+00:00",
+  "protocol_sha256": "05cf933265d6d9cee1e3f03f3607e75a76d035ce7ac74f31fe783c19644a1d42",
+  "files": {
+    "configs/protocol.json": "47070994fd08ac228976f465d344ca33b2e06ec0ce8d63dbc36e8db30584c541",
+    "docs/EXPERIMENT_DESIGN.md": "0183f2b1a3a1baedca8b50a11bb39b20e5c3a157f249b283b943aa4f0ed057c0",
+    "src/run.py": "030e935df33291f44bf8f847ca03d492dbbbf30c429bb5bc36c6d8e3a35fe2e1",
+    "src/plants.py": "b8131f5003bb321407052960ddcec370208597ad87af9eddbf7a40f428b4f03e",
+    "src/common.py": "713a2bc6255b9d3768c8c51a0c5097284a432487e6b1b0771d00b3d6faf68552",
+    "src/monitor.py": "81fb3eaf725b8ae3ea16ae841192ff4548d132da2e5e9ffa301663437a4c8b3b"
+  }
+}

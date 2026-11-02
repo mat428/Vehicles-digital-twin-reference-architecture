@@ -1,0 +1,11 @@
+{
+  "declared_utc": "2026-10-16T22:44:47.881737+00:00",
+  "before_fresh_environment_native_reruns": true,
+  "maximum_aligned_position_difference_wheelbases": 0.01,
+  "maximum_terminal_record_difference": 1,
+  "required_equal_outcomes": [
+    "completed",
+    "boundary_violation"
+  ],
+  "scope": "one high-speed circle case per backend; same machine"
+}

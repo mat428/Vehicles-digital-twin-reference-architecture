@@ -1,0 +1,77 @@
+{
+  "control_dt_s": 0.02,
+  "observation_dt_s": 0.05,
+  "event_dt_s": 0.005,
+  "f1tenth_physics_dt_s": 0.001,
+  "metadrive_physics_dt_s": 0.005,
+  "f1tenth_wheelbase_m": 0.3302,
+  "metadrive_wheelbase_m": 2.46894,
+  "steering_limit_rad": 0.4189,
+  "lookahead_wheelbases": 2,
+  "position_noise_wheelbases": 0.015142338,
+  "yaw_noise_rad": 0.003,
+  "speed_noise_wheelbases_s": 0.06056935,
+  "correction_gain": 0.65,
+  "corridor_halfwidth_wheelbases": 0.75,
+  "yaw_residual_threshold_rad_s": 0.05,
+  "persistent_measurements": 3,
+  "age_threshold_s": 0.08,
+  "fault_start_s": 4,
+  "settling_s": 1,
+  "tracks": [
+    "circle",
+    "ellipse",
+    "wavy"
+  ],
+  "speeds_f1_m_s": [
+    1.0,
+    2.0
+  ],
+  "delays_ms": [
+    75
+  ],
+  "mismatch_pct": [
+    15
+  ],
+  "steering_bias_deg": [
+    -8,
+    -2,
+    2,
+    8
+  ],
+  "dropout_pct": [
+    20
+  ],
+  "campaigns": {
+    "A": {
+      "seeds": [
+        300,
+        301,
+        302
+      ]
+    },
+    "B": {
+      "seeds": [
+        600,
+        601,
+        602
+      ]
+    }
+  },
+  "speed_scaling": "sqrt(wheelbase ratio): equal reference lateral acceleration, not full dynamic similarity",
+  "correction_policy": "parallel timestamp-aware, stale and free observers on identical native trajectory; direct/timestamp/stale closed-loop modes",
+  "burst_dropout_s": 0.2,
+  "monitor_window_packets": 5,
+  "calibration_quantile": 0.999,
+  "calibration_seeds": [
+    20,
+    21,
+    22
+  ],
+  "design_version": "2026-10-16_geometry_holdout_integrated_reference",
+  "monitor_reference": "Integral of linearly interpolated measured speed times held intended curvature; no native-truth input",
+  "calibration_tracks": [
+    "circle",
+    "ellipse"
+  ]
+}
