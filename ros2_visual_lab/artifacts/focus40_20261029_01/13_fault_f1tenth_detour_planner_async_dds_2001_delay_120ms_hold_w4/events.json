@@ -1,0 +1,8 @@
+[
+  {
+    "event": "fault_start",
+    "sim_t": 2.99,
+    "wall_ns": 531049110011154,
+    "source": "scenario injection using native progress; unavailable to controller"
+  }
+]

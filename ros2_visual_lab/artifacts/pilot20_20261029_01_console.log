@@ -1,0 +1,41 @@
+[1/20] 01_f1tenth_circle_v1
+[2/20] 02_f1tenth_circle_v2
+[3/20] 03_f1tenth_ellipse_v1
+[4/20] 04_f1tenth_ellipse_v2
+[5/20] 05_f1tenth_wavy_v1
+[6/20] 06_f1tenth_wavy_v2
+[7/20] 07_f1tenth_detour_v1
+[8/20] 08_f1tenth_detour_v2
+[9/20] 09_f1tenth_blocked_v1
+[10/20] 10_f1tenth_blocked_v2
+[11/20] 11_metadrive_circle_v1
+[12/20] 12_metadrive_circle_v2
+[13/20] 13_metadrive_ellipse_v1
+[14/20] 14_metadrive_ellipse_v2
+[15/20] 15_metadrive_wavy_v1
+[16/20] 16_metadrive_wavy_v2
+[17/20] 17_metadrive_detour_v1
+[18/20] 18_metadrive_detour_v2
+[19/20] 19_metadrive_blocked_v1
+[20/20] 20_metadrive_blocked_v2
+01_f1tenth_circle_v1 PASS completed
+02_f1tenth_circle_v2 PASS completed
+03_f1tenth_ellipse_v1 PASS completed
+04_f1tenth_ellipse_v2 PASS completed
+05_f1tenth_wavy_v1 PASS completed
+06_f1tenth_wavy_v2 PASS completed
+07_f1tenth_detour_v1 PASS goal_reached
+08_f1tenth_detour_v2 PASS goal_reached
+09_f1tenth_blocked_v1 PASS stopped
+10_f1tenth_blocked_v2 PASS stopped
+11_metadrive_circle_v1 PASS completed
+12_metadrive_circle_v2 PASS completed
+13_metadrive_ellipse_v1 PASS completed
+14_metadrive_ellipse_v2 PASS completed
+15_metadrive_wavy_v1 PASS completed
+16_metadrive_wavy_v2 PASS completed
+17_metadrive_detour_v1 PASS goal_reached
+18_metadrive_detour_v2 PASS goal_reached
+19_metadrive_blocked_v1 PASS stopped
+20_metadrive_blocked_v2 PASS stopped
+Pilot outputs: /lab/artifacts/pilot20_20261029_01

@@ -1,0 +1,118 @@
+{
+  "id": "dds_wavy",
+  "campaign": "demo",
+  "group": "E0",
+  "track": "wavy",
+  "speed_case": 1.0,
+  "seed": 1001,
+  "mode": "timestamp",
+  "wheelbase_m": 2.46894,
+  "time_scale": 2.734429517281219,
+  "actual_target_speed_m_s": 2.734429517281219,
+  "fault_onset_s": 10.950000000000001,
+  "raw_file": "dds_wavy.csv.gz",
+  "raw_sha256": "e5744d554551f4f1e2c81da9a4dc2b261fac5442e2004606294e38adf333f4de",
+  "observations_file": "dds_wavy_observations.csv.gz",
+  "observations_sha256": "230bef30b23dbd5faebb48e9111af3c285b289671e3417c1a6d2bc727cab0672",
+  "control_records": 2331,
+  "observation_records": 933,
+  "native_metadata": {
+    "component": "native MetaDrive StaticDefaultVehicle/Bullet",
+    "mass_kg": 1100.0,
+    "wheelbase_m": 2.46894,
+    "physics_dt_s": 0.005,
+    "arena": "flat native Bullet plane; original road surfaces removed",
+    "native_sensor_models_used": false,
+    "corridor_checks": "shared geometry, not native road-network score"
+  },
+  "completed": true,
+  "boundary_violation": false,
+  "elapsed_s": 46.6,
+  "measurement_drop_count": 0,
+  "track_rmse_m": 0.40521647322092064,
+  "track_rmse_L": 0.1641256868214378,
+  "free_rmse_m": 1.5770927661591139,
+  "metric_start_s": 5.468859034562438,
+  "track_p95_m": 0.6457676311056607,
+  "dt_pre_rmse_m": 0.039122129159694624,
+  "dt_post_rmse_m": 0.03855777100900213,
+  "naive_rmse_m": 0.03855777100900213,
+  "first_yaw_alarm_delay_s": null,
+  "first_age_alarm_delay_s": null,
+  "pre_fault_yaw_alarm_deliveries": 0,
+  "fault_detected": false,
+  "within_1s_detected": false,
+  "age_detected": false,
+  "yaw_alarm_fraction": 0.0,
+  "age_alarm_fraction": 0.0,
+  "protocol_sha256": "05cf933265d6d9cee1e3f03f3607e75a76d035ce7ac74f31fe783c19644a1d42",
+  "model": {
+    "gain": 0.9870621863737121,
+    "threshold_rad_s": 0.07265803750143132,
+    "samples": 6730,
+    "calibration_runs": 12,
+    "protocol_sha256": "05cf933265d6d9cee1e3f03f3607e75a76d035ce7ac74f31fe783c19644a1d42",
+    "calibration": [
+      {
+        "id": "cal_circle_1.0_20",
+        "raw_sha256": "a0c7f4db47a254516c7841f90330edb4b54c45f5d6db5112fa19cfee57cdd0be",
+        "observations_sha256": "5a6b22a3a7f668aaab7e3ba17de562024e70ed2bbf9bf958e16fbe5ef285feb4"
+      },
+      {
+        "id": "cal_circle_1.0_21",
+        "raw_sha256": "ca27b1fa4643cd0b098f87a3358145f66485e660f8b807d01850914c1f508277",
+        "observations_sha256": "c6afb572b3fcd913cc4762c8a6a3fac1b3dc67155986ebb5154370569cbbb59e"
+      },
+      {
+        "id": "cal_circle_1.0_22",
+        "raw_sha256": "b1096baa35390b022674a334acaa6ba07bbec99ebb0c79e7b018f0cef7942e5a",
+        "observations_sha256": "f57dccc15d1659447d7b4cb129d37352374bbc868cd7e8e40267b501a960128d"
+      },
+      {
+        "id": "cal_circle_2.0_20",
+        "raw_sha256": "3bb248f7cfb534c54b84cbe17fb6251c8fac94c59e5443a646351d5d1b1753c3",
+        "observations_sha256": "44e946742da5e3c30a34ec44f41466033b03af7727e1ce91d580e5ad29aaa036"
+      },
+      {
+        "id": "cal_circle_2.0_21",
+        "raw_sha256": "baf0ac0f3a060e148f94e26789b0c16b5df8fabc36f9f9e157402e269e25da1e",
+        "observations_sha256": "73c037904c1001d8cb89f6c223d66a10ff1d9b6ed7ec13e12c084407f9e9bb7b"
+      },
+      {
+        "id": "cal_circle_2.0_22",
+        "raw_sha256": "50c71dfb80bda19984eba37c2f9e653a73daa5d5b92fd63dc8367f55a8b5b106",
+        "observations_sha256": "7c4498383ae89a3e0b5409563f2ced13229f09924c7ff5437f1810bd4dc02ca7"
+      },
+      {
+        "id": "cal_ellipse_1.0_20",
+        "raw_sha256": "3531fd1f16ad3172d75ef065d3b8ac54b501955f8ef72d42e6be24b1354fd7ac",
+        "observations_sha256": "74ab846250e54030f29c73b5da5eefe351062038a505de5331263af873037c8d"
+      },
+      {
+        "id": "cal_ellipse_1.0_21",
+        "raw_sha256": "84eb2c072b1cd763f403f8e6394344d0d916819da9d1092d6fc3f97f5c747956",
+        "observations_sha256": "576cb342731ca4c80437b37112a9c5e5cf83f0a2f7f6bfa11e39527681c84670"
+      },
+      {
+        "id": "cal_ellipse_1.0_22",
+        "raw_sha256": "135f02196156d7253bc768c7f90eeffaea1081ff839ed606b32b8343e8e8f83b",
+        "observations_sha256": "6051f818739e2f3a71536480330a6944670bcc2e2e6a01dbc94500af4ca4aafe"
+      },
+      {
+        "id": "cal_ellipse_2.0_20",
+        "raw_sha256": "4973228002645f730f1e70def1edf25fa2fcd00ccf2581e31d8dc4d4d1080446",
+        "observations_sha256": "0db896a41d6d3eb4efe60f9b4c2b25765ab682d39819c7642e42c0f8ed315ffd"
+      },
+      {
+        "id": "cal_ellipse_2.0_21",
+        "raw_sha256": "661116e77a139452409cf46e5a4b8e9928d9d51c9e19b6d13071d11f30ade066",
+        "observations_sha256": "130472dafae651eda23b016da91b01f945ae592b5e1026cbf60b099198666234"
+      },
+      {
+        "id": "cal_ellipse_2.0_22",
+        "raw_sha256": "b2aeb9a0669b7cb3eb6a5852c3cceac29b94f688118dcaf74e3304749ac66839",
+        "observations_sha256": "a73f64d1e08a5f78bc96cc6441ef28a93b149632c1aa68e721da576d245ea042"
+      }
+    ]
+  }
+}

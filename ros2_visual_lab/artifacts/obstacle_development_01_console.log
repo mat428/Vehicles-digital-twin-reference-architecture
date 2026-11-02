@@ -1,0 +1,9 @@
+[1/4] 01_f1tenth_detour_v1
+[2/4] 02_f1tenth_detour_v2
+[3/4] 03_f1tenth_blocked_v1
+[4/4] 04_f1tenth_blocked_v2
+01_f1tenth_detour_v1 PASS goal_reached
+02_f1tenth_detour_v2 PASS goal_reached
+03_f1tenth_blocked_v1 PASS stopped
+04_f1tenth_blocked_v2 PASS stopped
+Pilot outputs: /lab/artifacts/obstacle_development_01

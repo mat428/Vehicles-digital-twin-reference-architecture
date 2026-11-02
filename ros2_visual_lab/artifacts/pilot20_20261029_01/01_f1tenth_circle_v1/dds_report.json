@@ -1,0 +1,16 @@
+{
+  "backend": "f1tenth",
+  "exchanges": 819,
+  "round_trip_median_ms": 0.396548,
+  "round_trip_p95_ms": 0.6013621999999997,
+  "round_trip_max_ms": 36.828261,
+  "round_trips_over_20ms": 1,
+  "maximum_steering_difference_rad": 0.0,
+  "completed": true,
+  "boundary_violation": false,
+  "wall_elapsed_s": 1.2221366208977997,
+  "simulated_elapsed_s": 16.36,
+  "rmw": "rmw_fastrtps_cpp",
+  "mode": "lockstep; DDS state request and command; observer/monitor in runner",
+  "note": "Same-host application RTT; simulation waits for reply; no deadline guarantee."
+}

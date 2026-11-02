@@ -1,0 +1,154 @@
+[
+  {
+    "path": "01_f1tenth_detour_v1/dds_timing.csv",
+    "sha256": "30d7e2050084990b11c06a7087ed12ffaa9945271cb1bc11f000c8e53a3f2b9d"
+  },
+  {
+    "path": "01_f1tenth_detour_v1/independent_audit.json",
+    "sha256": "a3ec7eb6a2280172351028119faa367080d2385685dc88004b0b6c8cc353c2dd"
+  },
+  {
+    "path": "01_f1tenth_detour_v1/observations.csv.gz",
+    "sha256": "07fd9c8d8d58af45570b810bb35c42204861460abc75bf34a8755e84f29018df"
+  },
+  {
+    "path": "01_f1tenth_detour_v1/physics.csv.gz",
+    "sha256": "07c98cb8b835406da5933a95a38efce84a57ed3aca6ee0073470a74a6a39b597"
+  },
+  {
+    "path": "01_f1tenth_detour_v1/result.json",
+    "sha256": "33d62feaac1042be093ab42b13b30ee28b0cccced84de6b6117d332eb0b6ea84"
+  },
+  {
+    "path": "01_f1tenth_detour_v1/scenario.json",
+    "sha256": "d60f2c40748b40e6bd64c9b5e91ed1389f08f78f77eb86758f1f5eb09e1016e1"
+  },
+  {
+    "path": "01_f1tenth_detour_v1_controller.log",
+    "sha256": "2aeebc33ac55480ca06294d6913c5c1f2252f313ee498f884a07a47afb3fefd8"
+  },
+  {
+    "path": "01_f1tenth_detour_v1_runner.log",
+    "sha256": "1594be61a1c16a038118edfb76180fda3d75a3f1e654b3b565477956ad4e5312"
+  },
+  {
+    "path": "02_f1tenth_detour_v2/dds_timing.csv",
+    "sha256": "60e5fcd81c0d9b7c8068af537600b032b970d01f7ded672f8662472cc914b958"
+  },
+  {
+    "path": "02_f1tenth_detour_v2/independent_audit.json",
+    "sha256": "054d559c6b8356dfb9d9eff14d421853db905731eaf3bf5a271fa0d06980d134"
+  },
+  {
+    "path": "02_f1tenth_detour_v2/observations.csv.gz",
+    "sha256": "0d54e95c2646235f5f1e47ae1218013cf6118d95363131dc232cc52f8d3370ba"
+  },
+  {
+    "path": "02_f1tenth_detour_v2/physics.csv.gz",
+    "sha256": "78dd51c3f14c27bf1c46b3e92bd141d68406f64470738047b6be17ea731e4075"
+  },
+  {
+    "path": "02_f1tenth_detour_v2/result.json",
+    "sha256": "775676800eb22b48fae2a634928f3d84bb0949b852cd707db5c79db1b124d556"
+  },
+  {
+    "path": "02_f1tenth_detour_v2/scenario.json",
+    "sha256": "d60f2c40748b40e6bd64c9b5e91ed1389f08f78f77eb86758f1f5eb09e1016e1"
+  },
+  {
+    "path": "02_f1tenth_detour_v2_controller.log",
+    "sha256": "2aeebc33ac55480ca06294d6913c5c1f2252f313ee498f884a07a47afb3fefd8"
+  },
+  {
+    "path": "02_f1tenth_detour_v2_runner.log",
+    "sha256": "69f00e95c75129edebd3009f10d256b4c2adb0e8d1731331f6868c09b771016f"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1/dds_timing.csv",
+    "sha256": "f401e8fe1bbf1d624da9da1a893b0f4d3a2849fd09862d16307c29ca1b859f8b"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1/independent_audit.json",
+    "sha256": "e546fd3c4b324de5cfa6810bd4baf7e2ad54e3c5cf53ba2b0260cdd4fd7dc5bd"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1/observations.csv.gz",
+    "sha256": "e8de6281d351d5fa42867e0ddbd42a68280b4b08f47bb4d50cfa2b97380caa5e"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1/physics.csv.gz",
+    "sha256": "4cd36b4f0a6a4ef0d96666afcdd1534d36f22ba819ebfe9b3ce64da66d53f2b2"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1/result.json",
+    "sha256": "3577e5c364e33c88461e02162191269db500c0c2668c8695c0f281b49c93697d"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1/scenario.json",
+    "sha256": "de12d37d83aece4d9ff8c48f2429846fd82e64f17b9e7f09242043fe0a966433"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1_controller.log",
+    "sha256": "2aeebc33ac55480ca06294d6913c5c1f2252f313ee498f884a07a47afb3fefd8"
+  },
+  {
+    "path": "03_f1tenth_blocked_v1_runner.log",
+    "sha256": "a3dcb727b40d266e0bc92389dc74eae81f4744f51321116d3b7aeec69a84e06f"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2/dds_timing.csv",
+    "sha256": "33ac9fc2c4447c42326a2d4d11e33522b5b5e15c567d8944dc679a55d1f6a115"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2/independent_audit.json",
+    "sha256": "36b9bcc6c00d3bcee6d728a0b076f3a12831880adea46ba04468b6cafd2757a0"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2/observations.csv.gz",
+    "sha256": "4f8c1a3d0750bd21736a612fb823f892fbe513411b42cad49ed5eb030c4bb4b7"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2/physics.csv.gz",
+    "sha256": "f5b3bf20aab43079f2470752c393f42bb4e8c5cfb4f5e925856fe72ca3ddabf1"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2/result.json",
+    "sha256": "bb2034a55bd8da8316b56c19a76a32857ce40d666f424941c561beb700583567"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2/scenario.json",
+    "sha256": "de12d37d83aece4d9ff8c48f2429846fd82e64f17b9e7f09242043fe0a966433"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2_controller.log",
+    "sha256": "2aeebc33ac55480ca06294d6913c5c1f2252f313ee498f884a07a47afb3fefd8"
+  },
+  {
+    "path": "04_f1tenth_blocked_v2_runner.log",
+    "sha256": "2798599f11eca5f497a660c87bec1f821d05f2bdeb0e1de4ac37e4a66f1e1a5c"
+  },
+  {
+    "path": "RESULTS.md",
+    "sha256": "f002b53dbff250483fcaa1aec9a47dadfa6409d521736b0321c8404503e569b6"
+  },
+  {
+    "path": "execution_status.json",
+    "sha256": "ec194dde401016b181c762cbbedfd79eabc1e080b0f374f3402814526f04ca97"
+  },
+  {
+    "path": "geometry_trajectories.png",
+    "sha256": "c5d7bc10bbf4d9c9feaa42a411aec1d09efc4e374d247e459b2fab1f940dd3eb"
+  },
+  {
+    "path": "manifest.json",
+    "sha256": "eb1b5d1d61e9d553179a4a206ef01534e0cedd8bcf5eecef4fb6b3bd76c1921b"
+  },
+  {
+    "path": "obstacle_trajectories.png",
+    "sha256": "803f51d3ea33675c4a70123b0e4016cf2ddcb01dbd5d45ec15a10586fc05f50e"
+  },
+  {
+    "path": "pilot_summary.json",
+    "sha256": "97a5eddba054aac0c070f52ccd852ce4ff517e0d632eb38cb8143d59d5c73770"
+  }
+]

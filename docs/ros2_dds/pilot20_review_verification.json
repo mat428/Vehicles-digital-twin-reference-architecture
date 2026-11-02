@@ -1,0 +1,9 @@
+{
+  "batch": "ros2_visual_lab/artifacts/pilot20_20261029_01",
+  "planned": 20,
+  "passed": 20,
+  "frozen_sources_verified": true,
+  "output_hashes_verified": true,
+  "obstacle_independent_audits": 8,
+  "original_package_verified": true
+}

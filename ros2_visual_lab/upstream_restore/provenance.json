@@ -1,0 +1,17 @@
+[
+  {
+    "path": "examples/__init__.py",
+    "sha256": "53889dbc95f9f4c93ac4eb9f27c2e2dc0078324b7cbf7852d6595815af3b5437",
+    "source": "https://raw.githubusercontent.com/metadriverse/metadrive/325d9e2f9c20e495bde66f30e0ef2b40efbce39c/metadrive/examples/__init__.py"
+  },
+  {
+    "path": "examples/ppo_expert/__init__.py",
+    "sha256": "c0026655f36f33e0fa9cfc03447a3fb8560c0ed5504371196b60146747d5351c",
+    "source": "https://raw.githubusercontent.com/metadriverse/metadrive/325d9e2f9c20e495bde66f30e0ef2b40efbce39c/metadrive/examples/ppo_expert/__init__.py"
+  },
+  {
+    "path": "examples/ppo_expert/numpy_expert.py",
+    "sha256": "f09cdec16172fde4546903e064a3e06d59b17eef61c95677716b1be8abfa544d",
+    "source": "https://raw.githubusercontent.com/metadriverse/metadrive/325d9e2f9c20e495bde66f30e0ef2b40efbce39c/metadrive/examples/ppo_expert/numpy_expert.py"
+  }
+]

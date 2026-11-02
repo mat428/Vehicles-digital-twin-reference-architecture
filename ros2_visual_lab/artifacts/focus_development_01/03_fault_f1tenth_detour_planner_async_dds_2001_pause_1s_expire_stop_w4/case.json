@@ -1,0 +1,13 @@
+{
+  "group": "fault",
+  "backend": "f1tenth",
+  "task": "detour",
+  "variant": "planner",
+  "transport": "async_dds",
+  "seed": 2001,
+  "halfwidth_L": 4.0,
+  "fault": "pause_1s",
+  "policy": "expire_stop",
+  "speed": 2.0,
+  "id": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4"
+}

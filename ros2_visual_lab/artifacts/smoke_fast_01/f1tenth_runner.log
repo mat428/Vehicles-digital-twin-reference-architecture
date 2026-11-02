@@ -1,0 +1,10 @@
+Traceback (most recent call last):
+  File "/lab/demo.py", line 290, in <module>
+    main()
+  File "/lab/demo.py", line 277, in main
+    rclpy.init()
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 88, in init
+    context.init(args, domain_id=domain_id)
+  File "/opt/ros/humble/local/lib/python3.10/dist-packages/rclpy/context.py", line 79, in init
+    _rclpy.rclpy_logging_configure(self.__context)
+rclpy._rclpy_pybind11.RCLError: failed to initialize logging: Failed to create log directory: //.ros/log, at ./src/rcl_logging_spdlog.cpp:138

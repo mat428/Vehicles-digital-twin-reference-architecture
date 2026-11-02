@@ -1,0 +1,103 @@
+{
+  "date": "2026-11-02",
+  "base_commit": "a7efdce",
+  "scope": "Repository packaging and launcher checks; excluded from the 20 pilot and 40 focused cases recorded on 2026-10-29.",
+  "checks": {
+    "shell_syntax": "passed for common.sh, run.sh, run_pilots.sh, run_focus.sh",
+    "existing_unit_tests": {
+      "passed": 8,
+      "failed": 0,
+      "command": "python3 -m unittest test_pilot_obstacles test_focus -v"
+    },
+    "recorded_evidence": {
+      "file_hashes": "verified",
+      "original_batch_source_and_payload_hashes": "verified",
+      "geometry_rmse_recomputed": 12,
+      "pilot_obstacle_audits_recomputed": 8,
+      "focus_case_audits_recomputed": 40,
+      "method": "python3 ros2_visual_lab/verify_extension.py --recompute; temporary copies only"
+    }
+  },
+  "native_smoke": {
+    "path": "ros2_visual_lab/artifacts/repository_smoke_20261102_01",
+    "cases": [
+      {
+        "run": "artifacts/repository_smoke_20261102_01/f1tenth",
+        "middleware": "rmw_fastrtps_cpp",
+        "completed": true,
+        "row_count": 413,
+        "differences_against_delivered": {
+          "t": 0.0,
+          "x": 0.0,
+          "y": 0.0,
+          "yaw": 0.0,
+          "speed": 0.0,
+          "dt_x": 0.0,
+          "dt_y": 0.0,
+          "delta_intended_rad": 0.0
+        },
+        "compressed_control_bytes_equal": false,
+        "original_case": "campaign/A/A_E0_0037"
+      },
+      {
+        "run": "artifacts/repository_smoke_20261102_01/metadrive",
+        "middleware": "rmw_fastrtps_cpp",
+        "completed": true,
+        "row_count": 1119,
+        "differences_against_delivered": {
+          "t": 0.0,
+          "x": 2.86102294921875e-06,
+          "y": 3.814697265625e-06,
+          "yaw": 1.5313176269238227e-06,
+          "speed": 3.92819292027724e-06,
+          "dt_x": 2.8877714122188536e-06,
+          "dt_y": 3.989562678441416e-06,
+          "delta_intended_rad": 1.4756173151997398e-06
+        },
+        "compressed_control_bytes_equal": false,
+        "original_case": "campaign/A/A_E0_0037"
+      }
+    ],
+    "reference": "results/<backend>/campaign/A/A_E0_0037.csv.gz",
+    "interpretation": "Maximum absolute difference across t,x,y,yaw,speed,dt_x,dt_y,delta_intended_rad; mixed units, not a single error metric."
+  },
+  "async_launcher_check": {
+    "path": "ros2_visual_lab/artifacts/repository_focus_dev_20261102_01",
+    "planned": 3,
+    "valid_audits": 3,
+    "cases": [
+      {
+        "id": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4",
+        "outcome": "goal_reached",
+        "audit_valid": true
+      },
+      {
+        "id": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4",
+        "outcome": "goal_reached",
+        "audit_valid": true
+      },
+      {
+        "id": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4",
+        "outcome": "stopped",
+        "audit_valid": true
+      }
+    ]
+  },
+  "environment": {
+    "primary_package": "Existing local package mounted read-only via EVIDENCE_DIR; the corrected public ZIP was not downloaded again.",
+    "docker_image": "f1tenth-ros2-visual:humble",
+    "image_id": "sha256:cf1cca4d1a26f1a9d2f43af6247885954b5dd4568288e1bfd4d30b706471fe36",
+    "build_scope": "Existing image reused; no fresh image build or NVIDIA visual session was repeated.",
+    "host": "Linux; ROS 2 Humble/Python 3.10 in Docker"
+  },
+  "preservation": {
+    "Paper/main.tex_sha256": "933edbb7883dcda1564d3a12914f0b816d701fc9eebe3dbdf0295db8c5a59a85",
+    "primary_repository_source_files_unchanged": [
+      "src/common.py",
+      "src/run.py",
+      "src/plants.py",
+      "configs/protocol.json"
+    ],
+    "original_campaigns": "Retained bytes unchanged; repository adaptations apply to launch/utility files only."
+  }
+}

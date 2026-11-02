@@ -1,0 +1,25 @@
+[38;20m[INFO] Environment: MetaDriveEnv[0m
+[38;20m[INFO] MetaDrive version: 0.4.3[0m
+[38;20m[INFO] Sensors: [lidar: Lidar(), side_detector: SideDetector(), lane_line_detector: LaneLineDetector()][0m
+[38;20m[INFO] Render Mode: none[0m
+[38;20m[INFO] Horizon (Max steps per agent): 20000[0m
+[38;20m[INFO] Assets version: 0.4.3[0m
+[38;20m[INFO] Known Pipes: glxGraphicsPipe[0m
+[38;20m[INFO] Start Scenario Index: 0, Num Scenarios : 3000[0m
+dds_ellipse complete 2262
+{
+  "backend": "metadrive",
+  "exchanges": 2262,
+  "round_trip_median_ms": 0.40792249999999997,
+  "round_trip_p95_ms": 0.6522841,
+  "round_trip_max_ms": 3.433365,
+  "round_trips_over_20ms": 0,
+  "maximum_steering_difference_rad": 0.0,
+  "completed": true,
+  "boundary_violation": false,
+  "wall_elapsed_s": 6.015380595927127,
+  "simulated_elapsed_s": 45.22,
+  "rmw": "rmw_fastrtps_cpp",
+  "mode": "lockstep; DDS state request and command; observer/monitor in runner",
+  "note": "Same-host application RTT; simulation waits for reply; no deadline guarantee."
+}

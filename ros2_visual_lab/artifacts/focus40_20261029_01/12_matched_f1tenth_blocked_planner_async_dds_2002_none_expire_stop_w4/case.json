@@ -1,0 +1,13 @@
+{
+  "group": "matched",
+  "backend": "f1tenth",
+  "task": "blocked",
+  "variant": "planner",
+  "transport": "async_dds",
+  "seed": 2002,
+  "halfwidth_L": 4.0,
+  "fault": "none",
+  "policy": "expire_stop",
+  "speed": 2.0,
+  "id": "12_matched_f1tenth_blocked_planner_async_dds_2002_none_expire_stop_w4"
+}

@@ -1,0 +1,8 @@
+{
+  "batch": "ros2_visual_lab/artifacts/focus40_20261029_01",
+  "planned": 40,
+  "valid_audits": 40,
+  "frozen_sources_verified": true,
+  "payload_hashes_verified": true,
+  "original_package_verified": true
+}

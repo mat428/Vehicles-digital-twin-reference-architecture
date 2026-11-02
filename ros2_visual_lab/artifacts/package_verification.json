@@ -1,0 +1,15 @@
+{
+  "all_checks_pass": true,
+  "run_counts": {
+    "evaluation": 864,
+    "calibration": 24,
+    "timestep": 6,
+    "fresh_environment": 2
+  },
+  "evaluation_control_records": 1009406,
+  "evaluation_observation_records": 403901,
+  "unchanged_frozen_files": 6,
+  "retained_upstream_files_verified": 1347,
+  "manifest_payload_files": 4116,
+  "scope": "packaged bytes, stored raw-file hashes, actual CSV row counts, schema widths and inventory; no native physics rerun"
+}

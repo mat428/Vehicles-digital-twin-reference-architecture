@@ -1,0 +1,13 @@
+{
+  "group": "matched",
+  "backend": "metadrive",
+  "task": "detour",
+  "variant": "planner",
+  "transport": "inprocess",
+  "seed": 2002,
+  "halfwidth_L": 4.0,
+  "fault": "none",
+  "policy": "expire_stop",
+  "speed": 2.0,
+  "id": "25_matched_metadrive_detour_planner_inprocess_2002_none_expire_stop_w4"
+}

@@ -1,0 +1,13 @@
+{
+  "independent_policy_valid": true,
+  "reply_timestamps_valid": true,
+  "fault_execution_valid": true,
+  "outcome_confirmed": true,
+  "sampled_clearance_m": 1.298290752721233,
+  "sampled_road_clearance_m": 5.222942632985176,
+  "production_swept_clearance_conservative": true,
+  "command_age_max_ms": 22.348309,
+  "command_age_p95_ms": 20.228013,
+  "method": "stdlib native endpoints/midpoints SAT and segment distances; independently reconstructed wall-time command-age authority",
+  "valid": true
+}

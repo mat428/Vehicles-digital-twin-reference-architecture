@@ -1,0 +1,59 @@
+{
+  "planned": 4,
+  "passed": 4,
+  "cases": [
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "detour",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "01_f1tenth_detour_v1",
+      "passed": true,
+      "outcome": "goal_reached",
+      "minimum_clearance_L": 0.42749635185734847,
+      "independent_clearance_L": 0.4274963548895823,
+      "round_trip_p95_ms": 0.7705441499999999
+    },
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "detour",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "02_f1tenth_detour_v2",
+      "passed": true,
+      "outcome": "goal_reached",
+      "minimum_clearance_L": 0.43018209670499036,
+      "independent_clearance_L": 0.43018209979570593,
+      "round_trip_p95_ms": 0.7961434000000001
+    },
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "blocked",
+      "speed": 1.0,
+      "seed": 1001,
+      "id": "03_f1tenth_blocked_v1",
+      "passed": true,
+      "outcome": "stopped",
+      "minimum_clearance_L": 6.295672683655193,
+      "independent_clearance_L": 6.295672686683658,
+      "round_trip_p95_ms": 0.7991542
+    },
+    {
+      "backend": "f1tenth",
+      "family": "obstacle",
+      "scenario": "blocked",
+      "speed": 2.0,
+      "seed": 1001,
+      "id": "04_f1tenth_blocked_v2",
+      "passed": true,
+      "outcome": "stopped",
+      "minimum_clearance_L": 6.294844412117039,
+      "independent_clearance_L": 6.294844415145505,
+      "round_trip_p95_ms": 0.9070038999999999
+    }
+  ],
+  "scope": "single-seed development pilots; lockstep DDS; map-based obstacle geometry"
+}

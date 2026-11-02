@@ -1,0 +1,218 @@
+[
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/case.json",
+    "sha256": "b6c0a6650772da7ed46c6b66fbf79c203929e9799cc75d8a130de58ea626be4e"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/controls.csv.gz",
+    "sha256": "7bee4049ef5a348a9600016b94a345e0c1b860bfa72665d03501cc09677c4f13"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/events.json",
+    "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/independent_audit.json",
+    "sha256": "4ae25e99069bc7e0ec707a74823078ce5851bedbd47e915a55087ceac59c71e1"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/observations.csv.gz",
+    "sha256": "6e8da96fc28b8c00d9e16573dbff1951c3258a8430239950c60b353ed8b79ba9"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/physics.csv.gz",
+    "sha256": "84a53874e93b0cf72096cd46ae199d9741cfc16833b75cfc49e088b80b5c1d0e"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/requests.csv.gz",
+    "sha256": "ef819c73d73005eb193c5ecfaa0b4cdc93e01790c12dd4aeb9194c80813d100a"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/responses.csv.gz",
+    "sha256": "54d060c1ae814cbc82263f85728495364594cadde4f3ed251a0c4277726d042a"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/result.json",
+    "sha256": "4a09a48853c99cb4dcf5fb4bcd5f775f1c5d7f540c670782f934986d7b2cc2fb"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4/scenario.json",
+    "sha256": "a24b52040ae4b05867a3edbddd0769a0989e12935c6c9f1604ea9a7655c8aa18"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4_controller.log",
+    "sha256": "6dc77ab32aa5954c6bb7acb5fa65b8d31860688ad57406c1faa66236d36cca39"
+  },
+  {
+    "path": "01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4_runner.log",
+    "sha256": "ec50eeec50589409ab6dbdd566993882906652de9a97a74a9230e5127f6b10d1"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/case.json",
+    "sha256": "d1fe60febb09c0a8f674e5178a8af9ce2c2b6d43d0e7ce3dd9448146268b7739"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/controls.csv.gz",
+    "sha256": "06ad4c625976667eed4c49c713c77f58e7b2227e0c00c4c3886f0cb254bb691f"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/events.json",
+    "sha256": "4b0db6ab19d7365e23eb6cd6f233eb9c9c2a57a2a81b13f50fd54bc2a7932de3"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/independent_audit.json",
+    "sha256": "2c22d5ecb14b83cf785f58a826bbfc2b6e5401cf7a970f2b9e1ad67bd7639f1d"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/observations.csv.gz",
+    "sha256": "a3d5252202d49c9600397187ba677758c0caf1c1615cfcef840765f5420d1e73"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/physics.csv.gz",
+    "sha256": "2c563187bebac2d86cf7064b9bb9370fdcbf8ab36398efb1c28da83d069f9aa3"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/requests.csv.gz",
+    "sha256": "59941d0ca9eaa0dda32b4f716dcf2d3457f580b72a1dde5465eb0a36052d0c6c"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/responses.csv.gz",
+    "sha256": "ce4a38e27f91dbabc07c98885e83c560def9899aab8f69c065042b7fa52a4a38"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/result.json",
+    "sha256": "4f5a292363f7dacdbd7e073fab91840e913a8bfb50fad85d04063b5e709682b2"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4/scenario.json",
+    "sha256": "a24b52040ae4b05867a3edbddd0769a0989e12935c6c9f1604ea9a7655c8aa18"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4_controller.log",
+    "sha256": "f7aadc57d6119d1f27a16577ffa11856e48a58939d1c59f1be4a0b1b89d6c10a"
+  },
+  {
+    "path": "02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4_runner.log",
+    "sha256": "96e0952f091f8bf7a794c661eb8b2617ac51c2279fedf4a1b2d1aee3b3a33a6c"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/case.json",
+    "sha256": "b3141a422aa3c91414e19571e403e68942c52dac78429a2aa074e827febe67d4"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/controls.csv.gz",
+    "sha256": "5c7a7a88892e0ccaea3bb0816bf35022c647933105c7a24e2ac15fae8a19bfd1"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/events.json",
+    "sha256": "bec9269e72ef8908c5e8310386c2ed3e702f6860e7f01ac30eef6b2ba92614a5"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/independent_audit.json",
+    "sha256": "e06fdaa358f3acc970817c69552f57a5000d97ad83f0c6933fffc51207e40972"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/observations.csv.gz",
+    "sha256": "0409dc1d8e00c2aa4087e13db3df8103702c67be48fe7709bc3c065391b5f558"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/physics.csv.gz",
+    "sha256": "9a1fcfa09a722dbf173181be534b78ad8d88b9556345441d4140145862bd5711"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/requests.csv.gz",
+    "sha256": "94088489771a573363a3b255ceab49b2eba4cad6dec1d9050c1dc0b81f5e75e8"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/responses.csv.gz",
+    "sha256": "565e6da9fab749bb9f567d7cc10f8a2666672197301d38dd9c910853aa4210cf"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/result.json",
+    "sha256": "a75c70c75259b094e1a5caad487542127c5cb93468333841b37a1d6238a075c1"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4/scenario.json",
+    "sha256": "a24b52040ae4b05867a3edbddd0769a0989e12935c6c9f1604ea9a7655c8aa18"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4_controller.log",
+    "sha256": "6dc77ab32aa5954c6bb7acb5fa65b8d31860688ad57406c1faa66236d36cca39"
+  },
+  {
+    "path": "03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4_runner.log",
+    "sha256": "4483f91fec7d46896f041d88f639db13684573c7e9c8ccc928d0abb8020648ce"
+  },
+  {
+    "path": "RESULTS.md",
+    "sha256": "21e370d20aa6d4fe453f1f14a9a2f7a6596a872eaeadfef4b0c995e7038859b6"
+  },
+  {
+    "path": "cases/01_matched_f1tenth_detour_planner_async_dds_2001_none_expire_stop_w4.json",
+    "sha256": "b6c0a6650772da7ed46c6b66fbf79c203929e9799cc75d8a130de58ea626be4e"
+  },
+  {
+    "path": "cases/02_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_hold_w4.json",
+    "sha256": "d1fe60febb09c0a8f674e5178a8af9ce2c2b6d43d0e7ce3dd9448146268b7739"
+  },
+  {
+    "path": "cases/03_fault_f1tenth_detour_planner_async_dds_2001_pause_1s_expire_stop_w4.json",
+    "sha256": "b3141a422aa3c91414e19571e403e68942c52dac78429a2aa074e827febe67d4"
+  },
+  {
+    "path": "command_age.png",
+    "sha256": "67fe2e694a7fc7b811efe77fb605aa89e7892144045295bfac10126afe11a5d4"
+  },
+  {
+    "path": "execution_status.json",
+    "sha256": "8949cd4ed98241513a18cc0f33970dbbe7e41a2ba121dd4fe60e082c28d1e52e"
+  },
+  {
+    "path": "frozen_source/analyze_pilots.py",
+    "sha256": "fca61b5b2dfef454b425bbc2d3d2cd37a67c60ef6e03dae0b8a1a7f081006111"
+  },
+  {
+    "path": "frozen_source/demo.py",
+    "sha256": "520fbbf5d037760ee4ea86131bd25126c2c31243eca7a36e092e4b156065a4a3"
+  },
+  {
+    "path": "frozen_source/focus_analyze.py",
+    "sha256": "e43a03800ceebdc6a63e4ae07e5789b6dc70f0481de650c39d9d28134d333caa"
+  },
+  {
+    "path": "frozen_source/focus_model.py",
+    "sha256": "a159ff960a631cf26afd4813cbbf214c4c4beeaa63cde7a4d88176e34b70ae5b"
+  },
+  {
+    "path": "frozen_source/focus_run.py",
+    "sha256": "9d6264e0e7807dd5ee6b2bfb26de1236b95ac844e63c6ca57a81803972e9626f"
+  },
+  {
+    "path": "frozen_source/focus_suite.py",
+    "sha256": "691152744b66038368d53cd37df2506b1c9b2eac29a2b6af06944a1d0decbbb1"
+  },
+  {
+    "path": "frozen_source/pilot_obstacles.py",
+    "sha256": "837a888fa541c8f0487565f651669428dd7b4fec86f7aa5656d39ac387db8147"
+  },
+  {
+    "path": "frozen_source/test_focus.py",
+    "sha256": "fc24a48f09fe2726b1a156606d61ad485a5991a586b12bd2549d5d036e589769"
+  },
+  {
+    "path": "manifest.json",
+    "sha256": "5aab1cfa7d778c2b56d64958c6826ca3180b920aa641a50ac9b55b838855ff9c"
+  },
+  {
+    "path": "source_integrity.json",
+    "sha256": "89a1bd729816edd75c25b2b3eae07e8aa18a3c4d0b2ff7357b088b79512895d2"
+  },
+  {
+    "path": "summary.json",
+    "sha256": "3b029206baa3e78238fb3e5b48a3bc6a955c85d646e244e011a3419ecabb2a92"
+  },
+  {
+    "path": "width_boundary.png",
+    "sha256": "2ebdc9ca0841dc2e9375d4559e3b516e4f9319a6cacbdd71038a0189dae4aaf3"
+  }
+]

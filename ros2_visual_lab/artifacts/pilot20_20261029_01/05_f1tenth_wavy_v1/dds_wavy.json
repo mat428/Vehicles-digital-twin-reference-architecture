@@ -1,0 +1,137 @@
+{
+  "id": "dds_wavy",
+  "campaign": "demo",
+  "group": "E0",
+  "track": "wavy",
+  "speed_case": 1.0,
+  "seed": 1001,
+  "mode": "timestamp",
+  "wheelbase_m": 0.3302,
+  "time_scale": 1.0,
+  "actual_target_speed_m_s": 1.0,
+  "fault_onset_s": 4.0,
+  "raw_file": "dds_wavy.csv.gz",
+  "raw_sha256": "d594374efe27298e0155d95b799f38351b2ed55355af2b4cd657da223115549e",
+  "observations_file": "dds_wavy_observations.csv.gz",
+  "observations_sha256": "e366dee08bcf7d119041dd5f253a93882179e61d6896de44b33da49b5daa0577",
+  "control_records": 855,
+  "observation_records": 342,
+  "native_metadata": {
+    "component": "official F1TENTH Gym RaceCar",
+    "params": {
+      "mu": 1.0489,
+      "C_Sf": 4.718,
+      "C_Sr": 5.4562,
+      "lf": 0.15875,
+      "lr": 0.17145,
+      "h": 0.074,
+      "m": 3.74,
+      "I": 0.04712,
+      "s_min": -0.4189,
+      "s_max": 0.4189,
+      "sv_min": -3.2,
+      "sv_max": 3.2,
+      "v_switch": 7.319,
+      "a_max": 9.51,
+      "v_min": -5.0,
+      "v_max": 20.0,
+      "width": 0.31,
+      "length": 0.58
+    },
+    "physics_dt_s": 0.001,
+    "integrator": "native RK4",
+    "laser_beams": 16,
+    "scans_used_for_control": false,
+    "corridor_checks": "shared geometry, not Gym collision or race scoring"
+  },
+  "completed": true,
+  "boundary_violation": false,
+  "elapsed_s": 17.080000000000002,
+  "measurement_drop_count": 0,
+  "track_rmse_m": 0.0450405585426356,
+  "track_rmse_L": 0.13640387202494125,
+  "free_rmse_m": 0.19994527254816138,
+  "metric_start_s": 2.0,
+  "track_p95_m": 0.07073142995123646,
+  "dt_pre_rmse_m": 0.006289683724545878,
+  "dt_post_rmse_m": 0.005913681571052684,
+  "naive_rmse_m": 0.005913681571052684,
+  "first_yaw_alarm_delay_s": null,
+  "first_age_alarm_delay_s": null,
+  "pre_fault_yaw_alarm_deliveries": 0,
+  "fault_detected": false,
+  "within_1s_detected": false,
+  "age_detected": false,
+  "yaw_alarm_fraction": 0.0,
+  "age_alarm_fraction": 0.0,
+  "protocol_sha256": "05cf933265d6d9cee1e3f03f3607e75a76d035ce7ac74f31fe783c19644a1d42",
+  "model": {
+    "gain": 0.9692712357550437,
+    "threshold_rad_s": 0.11612173182916574,
+    "samples": 2449,
+    "calibration_runs": 12,
+    "protocol_sha256": "05cf933265d6d9cee1e3f03f3607e75a76d035ce7ac74f31fe783c19644a1d42",
+    "calibration": [
+      {
+        "id": "cal_circle_1.0_20",
+        "raw_sha256": "6661941a64dd504b179eaf2edf06beeb45ea8e0c54fd5b3914106ea49fbba153",
+        "observations_sha256": "d0cba6b62aa9947a38985b3e76b5fe7f747f28c2213edbdd0346ffe573cda2ca"
+      },
+      {
+        "id": "cal_circle_1.0_21",
+        "raw_sha256": "bab74a127fba5d15fb614fc4191a855a82c4d9292bb054bd5ccd7f60bedf0e36",
+        "observations_sha256": "0978afdf151ba9201f47d8a4d068645d5e9779ab62fa88edfa02ff2c227b65af"
+      },
+      {
+        "id": "cal_circle_1.0_22",
+        "raw_sha256": "e9d75ef8eba19e3559f385e5da55b27e2e5173facd6cd196eeb2fb2119c9a56c",
+        "observations_sha256": "439bcf9a22d19d56bff4875cd7f43d74ce1f0d3a0b62f1822934cda54066ea84"
+      },
+      {
+        "id": "cal_circle_2.0_20",
+        "raw_sha256": "4f21afe80a3619f7e3cd6944b7af5259930c0c5855330e9efab7e566a7512232",
+        "observations_sha256": "eaed1e4706fb08ff0f0336819d0a121cd71cb709c22fa213846ba50f34b5e690"
+      },
+      {
+        "id": "cal_circle_2.0_21",
+        "raw_sha256": "7d9b56897b17c2d2e14ee240f2def845a1a7e6de277adb078211e1319d420a81",
+        "observations_sha256": "1b76e88278fd5bff8ab5418a85441f79952c60c98a013ef443255e7050a6f0c9"
+      },
+      {
+        "id": "cal_circle_2.0_22",
+        "raw_sha256": "d538b18e397b411e1313b4993b103c2ffca3b7b99cf137367dd534e6288bc35b",
+        "observations_sha256": "c22ddd71252f4ef6aacfbf04d61c9bd533d83f17057abe39506d744a5caa8ce5"
+      },
+      {
+        "id": "cal_ellipse_1.0_20",
+        "raw_sha256": "18eb134a973d1a817688710997a6909dce308c5621f63b8a87de237290f134c5",
+        "observations_sha256": "0d88d8821281a2802707b06be46b446821d392353bdb1576e9e30826b9c5f8cc"
+      },
+      {
+        "id": "cal_ellipse_1.0_21",
+        "raw_sha256": "cc8c7c7711b96dcf3c0e9baacd6a2be2558e0f9d3afdf5840cb57836be1c33b2",
+        "observations_sha256": "c09337f5c6147c54e187bc22ed49b06e79187eb4f7893d13bb53583ba5713b05"
+      },
+      {
+        "id": "cal_ellipse_1.0_22",
+        "raw_sha256": "bf86b26bad811fe0347382dc00e4d2e77e0952dba4b6af1f1d4e70454a9bc8f7",
+        "observations_sha256": "d13709ec0de94bc52f21ef3fc33e615adbee13338952186aef9e3d84e6e73f43"
+      },
+      {
+        "id": "cal_ellipse_2.0_20",
+        "raw_sha256": "2d33dac3f2ef3126f67df93f0f33905815b9f8a6f425c6b05ec998a3fc0c060b",
+        "observations_sha256": "658784dc0527450412899aacd6c5bd1cfc201f861c58ea5eb203204957e95cd3"
+      },
+      {
+        "id": "cal_ellipse_2.0_21",
+        "raw_sha256": "44de93c64ffd12d0e5c32eee987ea7883e1dbfcbede601d4a4767d2e6ca4298a",
+        "observations_sha256": "33b77d44cacd2fd7ff261a62b95b827928323f43e7990004ed07ece61e3e405f"
+      },
+      {
+        "id": "cal_ellipse_2.0_22",
+        "raw_sha256": "0498f60212b2e8da3aa80be5046cf9d52962c3c2711e492155edc7eaa264d85d",
+        "observations_sha256": "baa424318a53c822a782d9bf96c30dc37aff908f430349b6a9bbe27d8ec9765b"
+      }
+    ]
+  }
+}

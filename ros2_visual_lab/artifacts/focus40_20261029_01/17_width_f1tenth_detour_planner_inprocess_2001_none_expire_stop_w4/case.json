@@ -1,0 +1,13 @@
+{
+  "group": "width",
+  "backend": "f1tenth",
+  "task": "detour",
+  "variant": "planner",
+  "transport": "inprocess",
+  "seed": 2001,
+  "halfwidth_L": 4.0,
+  "fault": "none",
+  "policy": "expire_stop",
+  "speed": 2.0,
+  "id": "17_width_f1tenth_detour_planner_inprocess_2001_none_expire_stop_w4"
+}

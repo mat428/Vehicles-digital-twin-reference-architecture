@@ -1,0 +1,42 @@
+[
+  {
+    "backend": "f1tenth",
+    "family": "obstacle",
+    "scenario": "detour",
+    "speed": 1.0,
+    "seed": 1001,
+    "id": "01_f1tenth_detour_v1",
+    "returncode": 0,
+    "execution": "completed"
+  },
+  {
+    "backend": "f1tenth",
+    "family": "obstacle",
+    "scenario": "detour",
+    "speed": 2.0,
+    "seed": 1001,
+    "id": "02_f1tenth_detour_v2",
+    "returncode": 0,
+    "execution": "completed"
+  },
+  {
+    "backend": "f1tenth",
+    "family": "obstacle",
+    "scenario": "blocked",
+    "speed": 1.0,
+    "seed": 1001,
+    "id": "03_f1tenth_blocked_v1",
+    "returncode": 0,
+    "execution": "completed"
+  },
+  {
+    "backend": "f1tenth",
+    "family": "obstacle",
+    "scenario": "blocked",
+    "speed": 2.0,
+    "seed": 1001,
+    "id": "04_f1tenth_blocked_v2",
+    "returncode": 0,
+    "execution": "completed"
+  }
+]

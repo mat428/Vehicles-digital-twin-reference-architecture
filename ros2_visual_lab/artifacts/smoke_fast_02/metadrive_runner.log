@@ -1,0 +1,24 @@
+Traceback (most recent call last):
+  File "/lab/demo.py", line 290, in <module>
+    main()
+  File "/lab/demo.py", line 282, in main
+    runner(args)
+  File "/lab/demo.py", line 181, in runner
+    plant = (F1Plant if args.backend == 'f1tenth' else MetaPlant)(CFG)
+  File "/evidence/src/plants.py", line 30, in __init__
+    from metadrive import MetaDriveEnv
+  File "/evidence/vendor/metadrive/metadrive/__init__.py", line 3, in <module>
+    from metadrive.envs import (
+  File "/evidence/vendor/metadrive/metadrive/envs/__init__.py", line 1, in <module>
+    from metadrive.envs.metadrive_env import MetaDriveEnv
+  File "/evidence/vendor/metadrive/metadrive/envs/metadrive_env.py", line 12, in <module>
+    from metadrive.envs.base_env import BaseEnv
+  File "/evidence/vendor/metadrive/metadrive/envs/base_env.py", line 22, in <module>
+    from metadrive.manager.agent_manager import VehicleAgentManager
+  File "/evidence/vendor/metadrive/metadrive/manager/agent_manager.py", line 4, in <module>
+    from metadrive.policy.AI_protect_policy import AIProtectPolicy
+  File "/evidence/vendor/metadrive/metadrive/policy/AI_protect_policy.py", line 1, in <module>
+    from metadrive.policy.manual_control_policy import ManualControlPolicy
+  File "/evidence/vendor/metadrive/metadrive/policy/manual_control_policy.py", line 4, in <module>
+    from metadrive.examples import expert
+ModuleNotFoundError: No module named 'metadrive.examples'

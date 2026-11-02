@@ -17,7 +17,7 @@ The study proposes a six-layer reference architecture with explicit responsibili
 | Experiment | Current status |
 | --- | --- |
 | Primary software-in-the-loop study | Source code and documentation included. Dataset available through the Google Drive link below. |
-| ROS 2/DDS extension | Will be added by a collaborating author. Not included in this version. |
+| ROS 2/DDS extension | Docker code, 20 pilot cases, 40 focused cases, raw records and audits included. See [extension guide](docs/ros2_dds/README.md). |
 
 ## Primary study
 
@@ -40,9 +40,12 @@ All measurements are simulated. The study does not establish physical-vehicle va
 - `docs/`: data dictionary, configuration details, reproduction instructions, and manuscript evidence mapping.
 - `checks/`: supplied historical audit reports.
 - `figures/`: primary-study experimental figures.
-- `requirements.txt` and `requirements.lock.txt`: dependency specifications.
+- `requirements.txt` and `requirements.lock.txt`: primary-study dependency specifications.
+- `ros2_visual_lab/`: ROS 2 Humble/DDS extension, Docker environment, frozen records and audits.
+- `docs/ros2_dds/`: extension reproduction guide, result reports and evidence map.
 
-Large datasets and bundled simulator distributions are excluded from Git history.
+The large primary dataset and bundled simulator distributions are excluded from Git history.
+The smaller ROS 2/DDS development records are included for inspection and verification.
 
 ## Dataset downloads
 
@@ -73,7 +76,9 @@ A complete 864-run Windows simulation campaign has not been rerun.
 
 Access is available without signing in. Download and extract the dataset archive before following the reproduction instructions below.
 
-The ROS 2/DDS extension will be added separately.
+The ROS 2/DDS extension is included under `ros2_visual_lab/`. Its recorded results
+can be verified without the primary dataset; new native runs require the extracted
+primary package. Follow the [extension guide](docs/ros2_dds/README.md).
 
 ## Reproduce the primary results
 

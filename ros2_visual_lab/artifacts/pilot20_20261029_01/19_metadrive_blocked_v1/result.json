@@ -1,0 +1,38 @@
+{
+  "backend": "metadrive",
+  "scenario": "blocked",
+  "speed_case": 1.0,
+  "seed": 1001,
+  "version": "static-map-pilot-v1",
+  "outcome": "stopped",
+  "passed": true,
+  "simulated_elapsed_s": 25.36,
+  "wall_elapsed_s": 4.506965487031266,
+  "minimum_swept_clearance_m": 15.500467692323488,
+  "minimum_road_clearance_m": 8.933550940840346,
+  "clearance_required_m": 0.617235,
+  "exchanges": 1268,
+  "round_trip_median_ms": 0.49196399999999996,
+  "round_trip_p95_ms": 0.7814512999999997,
+  "round_trip_max_ms": 79.334631,
+  "final_position_m": [
+    48.90329360961914,
+    -0.0038575308863073587
+  ],
+  "final_speed_m_s": 0.003363367317669918,
+  "dimensions_m": [
+    4.515,
+    1.852
+  ],
+  "native_metadata": {
+    "component": "native MetaDrive StaticDefaultVehicle/Bullet",
+    "mass_kg": 1100.0,
+    "wheelbase_m": 2.46894,
+    "physics_dt_s": 0.005,
+    "arena": "flat native Bullet plane; original road surfaces removed",
+    "native_sensor_models_used": false,
+    "corridor_checks": "shared geometry, not native road-network score"
+  },
+  "command_equivalence_checked": true,
+  "boundary": "known static map; symmetric body rectangles; lockstep DDS; no perception or impact response"
+}
