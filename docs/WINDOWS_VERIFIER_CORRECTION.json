@@ -1,0 +1,6 @@
+{
+  "change": "Normalize inventory paths to forward slashes on all operating systems.",
+  "original_script_sha256": "a0e6b4ebe4e02bf7fe600f35ef676e8f9ebc42d785af12942f42e9d3be7425ce",
+  "data_and_experiment_code_changed": false,
+  "verification_checks_removed": false
+}

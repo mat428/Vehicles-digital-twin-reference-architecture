@@ -12,7 +12,7 @@ def main():
             assert p.is_file(),f'Missing {rel}'
             assert p.stat().st_size==int(row['bytes']),f'Size changed: {rel}'
             assert hashlib.sha256(p.read_bytes()).hexdigest()==row['sha256'],f'Hash changed: {rel}'
-        actual={str(p.relative_to(ROOT)) for p in ROOT.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.name!='MANIFEST_SHA256.csv'}
+        actual={p.relative_to(ROOT).as_posix() for p in ROOT.rglob('*') if p.is_file() and '__pycache__' not in p.parts and p.name!='MANIFEST_SHA256.csv'}
         assert actual==listed,{'unlisted':sorted(actual-listed),'missing':sorted(listed-actual)}
     else:raise AssertionError('MANIFEST_SHA256.csv is missing')
     freeze=json.loads((ROOT/'docs/design_freeze.json').read_text())

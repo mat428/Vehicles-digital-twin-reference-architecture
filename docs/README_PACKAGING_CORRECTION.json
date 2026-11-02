@@ -1,0 +1,12 @@
+{
+  "reason": "Supplied README differed from its manifest entry.",
+  "original_readme_manifest_entry": {
+    "path": "README.md",
+    "bytes": "4507",
+    "sha256": "751d604886e65c1f8246b625e4db43294f5f0ff2c4f0abbe6081a78ab7f81c9c"
+  },
+  "supplied_readme_sha256": "f9ef6ef5febf0247a28a9b6753521305aecea63ade8b8f31424a33a97e281f92",
+  "changes": "README paths, spacing and packaging note; README checksum updated.",
+  "all_other_original_file_hashes_verified": true,
+  "experimental_data_and_code_changed": false
+}

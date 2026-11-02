@@ -50,6 +50,27 @@ Download the primary SIL experiment data package from:
 
 [Primary SIL dataset and code — Google Drive](https://drive.google.com/drive/folders/11ZidiQWb8OWZmBb0Bi_VL_b_YiG491HJ?usp=sharing)
 
+**Download:** `Vehicle_Control_SIL_Reviewer_Package_v1.zip`
+
+Use this corrected package; older archives are superseded.
+
+**Archive SHA-256:**
+`d1fd92046b2c15b41343f9976e2f59e89c6c419756e6d54bf1af887babfb2d3b`
+
+### Tested Windows workflow
+
+Follow the [Windows reviewer guide](docs/REVIEWER_WINDOWS.md) using the extracted dataset package.
+
+Successfully tested with Python 3.12.10:
+
+- Package integrity and inventory verification.
+- Independent calculations for all 864 evaluation runs.
+- Seven software tests.
+- Primary analysis and regeneration of Figures 10–12.
+- One new native case per simulator, both passing comparison with the supplied baseline.
+
+A complete 864-run Windows simulation campaign has not been rerun.
+
 Access is available without signing in. Download and extract the dataset archive before following the reproduction instructions below.
 
 The ROS 2/DDS extension will be added separately.

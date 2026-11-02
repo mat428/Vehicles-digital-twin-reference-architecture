@@ -1,0 +1,30 @@
+{
+  "extra_native_runs": 2,
+  "scope": "Two new Windows native runs compared with the delivered primary baseline; not a complete campaign rerun.",
+  "records": [
+    {
+      "backend": "f1tenth",
+      "baseline_records": 413,
+      "fresh_install_records": 413,
+      "comparison_records": 413,
+      "terminal_time_difference_s": 0.0,
+      "completed": true,
+      "maximum_position_difference_m": 1.1102230246251565e-16,
+      "rms_position_difference_m": 1.912067625973102e-17,
+      "raw_hash_identical": false,
+      "observation_hash_identical": false
+    },
+    {
+      "backend": "metadrive",
+      "baseline_records": 1119,
+      "fresh_install_records": 1119,
+      "comparison_records": 1119,
+      "terminal_time_difference_s": 0.0,
+      "completed": true,
+      "maximum_position_difference_m": 2.021233761451074e-05,
+      "rms_position_difference_m": 1.1161595969374933e-05,
+      "raw_hash_identical": false,
+      "observation_hash_identical": false
+    }
+  ]
+}
